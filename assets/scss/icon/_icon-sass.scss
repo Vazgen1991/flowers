@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'flowers';
+  src:
+          url('../icons/flowers.ttf?co56vm') format('truetype'),
+          url('../icons/flowers.woff?co56vm') format('woff'),
+          url('../icons/flowers.svg?co56vm#flowers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'flowers' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e900";
+  color: #5e5e5e;
+}
+.icon-arrow-left:before {
+  content: "\e901";
+  color: #c1c1c1;
+}
+.icon-arrow-right:before {
+  content: "\e902";
+  color: #c1c1c1;
+}
+.icon-cart:before {
+  content: "\e903";
+  color: #5e5e5e;
+  font-size: 20px;
+}
+.icon-cart-trolley:before {
+  content: "\e904";
+  color: #fff;
+  font-size: 20px;
+}
+.icon-facebook:before {
+  content: "\e905";
+  font-size: 35px;
+  color: #3D3838;
+}
+.icon-instagram:before {
+  content: "\e906";
+  font-size: 27px;
+  color: #3D3838;
+}
+.icon-like:before {
+  content: "\e907";
+  color: #D9D9D9;
+  font-size: 50px;
+}
+.icon-pinterest:before {
+  content: "\e908";
+  font-size: 27px;
+  color: #3D3838;
+}
+.icon-search:before {
+  content: "\e909";
+  color: #5e5e5e;
+  font-size: 20px;
+}
+.icon-user:before {
+  content: "\e90a";
+  color: #5e5e5e;
+  font-size: 20px;
+}

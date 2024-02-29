@@ -1,0 +1,46 @@
+.flex {
+  @include flex(flex);
+  @include flex-wrap(wrap)
+
+}
+
+.justify-between {
+  @include justify-content(space-between);
+
+}
+.justify-around{
+  @include justify-content(space-around);
+
+}
+
+.justify-center {
+  @include justify-center(center)
+}
+.justify-end {
+  @include justify-end(flex-end)
+}
+
+.align-center {
+  @include align-items(center);
+
+}
+.align-end {
+  @include align-end(flex-end);
+
+}
+.align-start {
+  @include align-start(flex-start);
+
+}
+
+.flex-direction {
+  @include flex-direction(column)
+
+
+}
+
+.flex-direction-reverse {
+  @include flex-direction(column-reverse)
+
+
+}

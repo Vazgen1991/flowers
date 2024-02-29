@@ -1,0 +1,31 @@
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 42%;
+  &:after {
+    content: none;
+  }
+  @include for-phone-only {
+    width: 30px;
+    height: 30px;
+  }
+  i {
+    @include for-phone-only {
+      font-size: 12px;
+    }
+  }
+
+}
+.swiper-button-next {
+  right: 4px;
+}
+.swiper-button-prev {
+  left: 4px;
+}

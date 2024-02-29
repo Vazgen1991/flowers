@@ -1,0 +1,20 @@
+.page-heading-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  h2 {
+    font-family: ManropeSemiBold,sans-serif;
+    color: $secondary-color;
+    font-size: $font-md;
+
+  }
+  .line {
+    width: 85%;
+    height: 2px;
+    background: #EDEDED;
+    margin-left: 15px;
+  }
+
+}

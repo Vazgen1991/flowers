@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-v4-grid-only@1.0.0/dist/bootstrap-grid.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+
+<header>
+    <div class="header">
+        <div class="header-top-bg">
+            <p>Войдите, чтобы получить индивидуальные цены</p>
+        </div>
+        <div class="container-custom">
+            <div class="logo mobile-logo">
+                <h1>
+                    <a href="#" class="logo-img">
+                        <img src="assets/images/home/logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <div class="header-top">
+
+                <a class="search">
+                    <div class="header-search">
+
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <div class="logo">
+                    <h1>
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/home/logo.png" alt="logo">
+                        </a>
+                    </h1>
+                </div>
+                <div class="header-tools">
+                    <li class="switcher-lang">
+                        <a href="" class="lang">RU <i class="icon-down-2"></i></a>
+                        <ul class="lang-list">
+                            <li class="lang-item"><a href="#">Russian</a></li>
+                            <li class="lang-item"><a href="#">Armenian</a></li>
+                        </ul>
+                    </li>
+                    <a href="#"><span class="icon-user m-r-20"></span></a>
+                    <a href="#"><span class="icon-cart"></span></a>
+
+                </div>
+            </div>
+            <div class="header-top-mobile">
+                <ul>
+                    <li>
+                        <a class="menu-burger">
+                            <span><img src="assets/images/home/menu.svg" alt="img" style="width: 20px; height: 20px"></span>
+                            <span class="m-t-10">Menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="search-mb">
+                            <span class="icon-search"></span>
+                            <span class="m-t-10">Search</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-user"></span>
+                            <span class="m-t-10">Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-cart"></span>
+                            <span class="m-t-10">Cart</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item category">
+                        <a href="#" class="nav-link flex">
+                            РОЗЫ
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+
+                        <ul class="nav-submenu-list">
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БУКЕТЫ РОЗ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">О НАС</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БЛОГ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">РУКОВОДСТВА ПО УХОДУ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">СВЯЗАТЬСЯ С НАМИ</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="header-search-block ">
+                <form action="#" class="form-search">
+                    <div class="form-search-block">
+                        <input type="text" class="form-input" placeholder="Search for something">
+                        <button class="search-button-close button" type="button">
+                            <span class="icon-search"></span>
+                        </button>
+                    </div>
+                </form>
+                <div class="search-result">
+                    <div class="container-custom">
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="mobile-nav">
+            <button class="nav-close-icon">
+                <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <a href="" class="mobile-nav-link">РОЗЫ</a>
+                        <button class="btn btn-link mobile-nav-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <a href="" class="mobile-nav-link">БУКЕТЫ РОЗ</a>
+
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <a href="" class="mobile-nav-link">О НАС</a>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThre">
+                        <a href="" class="mobile-nav-link"> БЛОГ</a>
+
+                    </div>
+                    <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headings">
+                        <a href="" class="mobile-nav-link"> СВЯЗАТЬСЯ С НАМИ</a>
+
+                    </div>
+                    <div id="collapseheadings" class="collapse" aria-labelledby="headings" data-parent="#accordion">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-search-mobile-block">
+
+            <form action="#" class="mb-form-search">
+                <div class="mb-form-search-block">
+                    <input type="text" class="mb-form-input" placeholder="Search for something">
+                    <button class="mb-search-button-close button" type="button">
+
+                        <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="search-result">
+                <div class="container-custom">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+
+    <section>
+        <div class="banner">
+            <div class="container-custom">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="banner-title">
+                            <h1>Эксклюзивный высокий стиль</h1>
+                            <p>цветочные композиции</p>
+                            <button class="btn-custom filled primary button-xs">делать покупки</button>
+                        </div>
+                        <div class="banner-first-img-block">
+                            <img src="assets/images/home/banner-1.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-md-4 flex">
+                        <div class="banner-last-img-block">
+                            <div class="banner-second-images">
+                                <img src="assets/images/home/banner-2.png" alt="img">
+                            </div>
+                            <div class="banner-second-images">
+                                <img src="assets/images/home/banner-3.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="gift">
+            <div class="container-custom">
+                <div class="swiper gift-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/top-1.png" alt="img">
+                                </div>
+
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>Штучные</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/top-2.png" alt="img">
+                                </div>
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>букеты</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/top-3.png" alt="img">
+                                </div>
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>Moet & Chandon</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/gift.png" alt="img">
+                                </div>
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>Конверты</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/top-3.png" alt="img">
+                                </div>
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>Конверты</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/top-2.png" alt="img">
+                                </div>
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>Конверты</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/top-1.png" alt="img">
+                                </div>
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>Конверты</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <div class="slider-img-block">
+                                    <img src="assets/images/home/gift.png" alt="img">
+                                </div>
+                                <img src="assets/images/home/small-logo.png" alt="img">
+                                <h6>Конверты</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="icon-arrow-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="icon-arrow-left"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section>
+        <div class="container-custom" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+            <div class="category-block">
+                <div class="category-item">
+                    <img src="assets/images/home/cat-1.png" alt="img">
+                </div>
+                <div class="category-item custom-row">
+                    <img src="assets/images/home/cat-2.png" alt="img">
+                </div>
+                <div class="category-item">
+                    <img src="assets/images/home/cat-3.png" alt="img">
+                </div>
+                <div class="category-item">
+                    <img src="assets/images/home/cat-4.png" alt="img">
+                </div>
+                <div class="category-item">
+                    <img src="assets/images/home/cat-5.png" alt="img">
+                </div>
+                <div class="category-item">
+                    <img src="assets/images/home/cat-6.png" alt="img">
+                </div>
+                <div class="category-item">
+                    <img src="assets/images/home/cat-7.png" alt="img">
+                </div>
+                <div class="category-item">
+                    <img src="assets/images/home/cat-8.png" alt="img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="top-sale" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+            <div class="container-custom">
+                <div class="page-heading-title">
+                    <h2>Топ продаж </h2>
+                    <div class="line"></div>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-1.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">красная роза</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">20000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-2.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Торт `Pop It`</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">15000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-3.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Подарочная коробка «THE BOX»</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">25000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-4.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Композиция `EM Flowers` </h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">10000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-1.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">красная роза</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">20000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-2.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Торт `Pop It`</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">15000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-3.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Подарочная коробка «THE BOX»</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">25000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/top-4.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Композиция `EM Flowers` </h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">10000 др.</span>
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="icon-arrow-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="icon-arrow-left"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="holidays" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+            <div class="container-custom">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="holiday-item">
+                            <img src="assets/images/home/category-1.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="holiday-item">
+                            <img src="assets/images/home/category-2.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="holiday-item">
+                            <img src="assets/images/home/category-3.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="holiday-item">
+                            <img src="assets/images/home/category-4.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="holiday-item">
+                            <img src="assets/images/home/category-5.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="holiday-item">
+                            <img src="assets/images/home/category-6.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sale" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+            <div class="container-custom">
+                <div class="page-heading-title">
+                    <h2>СКИДКИ</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="swiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-1.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Сладкая композиция</h6>
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">18000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-10%</div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-2.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Виски «Chivas Regal 12» </h6>
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">19000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-5%</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-3.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Шарики с гелием, сердце 15 шт.</h6>
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">16000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-20%</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-4.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Подарочная коробка "THE BOX" "THE BOX"</h6>
+
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">23000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-15%</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-1.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Сладкая композиция</h6>
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">18000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-10%</div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-2.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Виски «Chivas Regal 12» </h6>
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">19000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-5%</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-3.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Шарики с гелием, сердце 15 шт.</h6>
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">16000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-20%</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gift-card border-none">
+                                <div class="gift-img-block">
+                                    <img src="assets/images/home/sale-4.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Подарочная коробка "THE BOX" "THE BOX"</h6>
+
+
+                                <div class="price-block">
+                                    <div class="flex flex-direction align-start">
+                                        <span class="old-price">20000</span>
+                                        <span class="card-price sale-price">23000 др.</span>
+                                    </div>
+
+                                    <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                                </div>
+                                <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                                <div class="sale-percent">-15%</div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="icon-arrow-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="icon-arrow-left"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="promotions" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+            <div class="container-custom">
+                <div class="page-heading-title">
+                    <h2>Собери букет сам</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="promo">
+                            <div class="promo-title">
+                                <h4 class="promo-heading">Обилие цветов</h4>
+                                <p class="promo-text"> открой наше предложение оптовых цветов </p>
+                            </div>
+                            <div class="promo-img-block">
+                                <img src="assets/images/home/gift-categ-1.png" alt="img" class="promo-img">
+                                <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="promo">
+                            <div class="promo-title">
+                                <h4 class="promo-heading">Собери букет сам</h4>
+                                <p class="promo-text"> у нас есть все необходимые средства за уходом за вашими цветами </p>
+                            </div>
+                            <div class="promo-img-block">
+                                <img src="assets/images/home/gift-categ-2.png" alt="img" class="promo-img">
+                                <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="promo">
+                            <div class="promo-title">
+                                <h4 class="promo-heading">Подарочная карта</h4>
+                                <p class="promo-text"> Посмотрите выбор подарочных карт </p>
+
+                            </div>
+                            <div class="promo-img-block">
+                                <img src="assets/images/home/gift-categ-3.png" alt="img" class="promo-img">
+                                <a href="" class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="gifts" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+            <div class="container-custom">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-1.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">24 ФЕРМЕРСКИХ КРАСНЫХ РОЗ</h6>
+                            <div class="price-block">
+                                <span class="card-price">25000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-2.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">Подарочная коробка "Coffee Time" Оранжевая</h6>
+                            <div class="price-block">
+                                <span class="card-price">30000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-3.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">Парадокс Парфюмированная вода</h6>
+                            <div class="price-block">
+                                <span class="card-price">50000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-4.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">BY THE BONFIRE</h6>
+                            <div class=" price-block">
+                                <span class="card-price">100000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-5.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">BORN IN ROMA UOMO EAU DE PARFUM INTESNE</h6>
+
+                            <div class="price-block">
+                                <span class="card-price">125000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-6.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">ANGEL BART</h6>
+
+                            <div class="price-block">
+                                <span class="card-price">23000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-7.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">Очищающий крем</h6>
+
+                            <div class="price-block">
+                                <span class="card-price">35000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-8.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">24 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+
+                            <div class="price-block">
+                                <span class="card-price">20000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-9.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">Желе/средний/</h6>
+
+                            <div class="price-block">
+                                <span class="card-price">18000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-10.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">Свадебная композиция с коньяком и цветами</h6>
+
+
+                            <div class="price-block">
+                                <span class="card-price">33000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-11.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">пионовый букет роза</h6>
+
+                            <div class="price-block">
+                                <span class="card-price">15000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="gift-card">
+                            <div class="gift-img-block">
+                                <img src="assets/images/home/gift-12.png" alt="img">
+                            </div>
+                            <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                            <h6 class="text-left">Композиция «Наири» с чаем, чашкой, колосьями и </h6>
+
+                            <div class="price-block">
+                                <span class="card-price">25000 др.</span>
+                                <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            </div>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="container-custom">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">О нас</p>
+                        <ul>
+                            <li><a href="#">Всё о наших цветах</a></li>
+                            <li><a href="#">Наш Блог</a></li>
+                            <li><a href="#">Связаться с нами</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">Розы</p>
+                        <ul>
+                            <li><a href="#">Букеты роз</a></li>
+                            <li><a href="#">Премиум</a></li>
+                            <li><a href="#">Эксклюзивные</a></li>
+                            <li><a href="#">Штучные</a></li>
+                            <li><a href="#">Мелкий опт</a></li>
+                            <li><a href="#">Лепестки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social">
+                        <p class="footer-heading">НОВОСТНАЯ РАССЫЛКА</p>
+                        <form action="#" class="footer-form">
+                            <div class="footer-input-block">
+                                <input type="text" placeholder="ваш@gmail.com" class="footer-input">
+                            </div>
+
+                        </form>
+                        <ul class="footer-social-list">
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-facebook"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-pinterest"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                        <ul class="payment-list">
+                            <li class="payment-item"><img src="assets/images/home/visa.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/master-card.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/meta.png" alt="img"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="flex align-center">Developed by <a href="" class="m-l-5 m-r-5"><img src="assets/images/home/lamp-logo.png" alt="logo"></a>&copy 2023</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+
+            },
+
+            576: {
+                slidesPerView: 2,
+
+            },
+            768: {
+                slidesPerView: 3,
+
+            },
+            1200: {
+                slidesPerView: 4,
+
+            },
+
+
+
+        }
+
+    });
+</script>
+
+<script src="assets/js/jquery.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

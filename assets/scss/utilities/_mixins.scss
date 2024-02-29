@@ -1,0 +1,157 @@
+// transition //
+
+@mixin transition($args...) {
+  transition: $args;
+
+}
+
+// transition //
+
+//positions//
+
+@mixin pos-abs($top: null, $right: null, $bottom: null, $left: null) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+
+}
+
+@mixin pos-rel($top: null, $right: null, $bottom: null, $left: null) {
+  position: relative;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+
+}
+
+//flexBox
+
+@mixin flex($flex) {
+
+  display: $flex;
+
+}
+
+@mixin flex-wrap($wrap) {
+
+  flex-wrap: $wrap;
+
+}
+
+@mixin justify-content($justify) {
+  justify-content: $justify;
+
+
+}
+
+@mixin justify-center($justify_center) {
+  justify-content: $justify_center;
+
+
+}
+
+@mixin justify-around($justify_around) {
+  justify-content: $justify_around;
+
+
+}
+
+@mixin justify-end($justify-end) {
+  justify-content: $justify-end;
+
+
+}
+
+
+@mixin align-items($align) {
+  align-items: $align;
+
+}
+
+@mixin align-end($align-end) {
+  align-items: $align-end;
+
+}
+
+@mixin align-start($align-start) {
+  align-items: $align-start;
+
+}
+
+@mixin flex-direction($direction) {
+  flex-direction: $direction;
+
+}
+
+// flexBox //
+
+//positions//
+
+
+// media
+
+@mixin for-phone-sm-only {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin for-phone-only {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-portrait-up {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-landscape-up {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (max-width: 1220px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up-md {
+  @media (max-width: 1320px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up-lg {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin for-medium-desktop-up {
+  @media (max-width: 1520px) {
+    @content;
+  }
+}
+
+@mixin for-medium-s-desktop-up {
+  @media (max-width: 1620px) {
+    @content;
+  }
+}
+
+@mixin for-big-desktop-up {
+  @media (max-width: 1800px) {
+    @content;
+  }
+}
+
+
+

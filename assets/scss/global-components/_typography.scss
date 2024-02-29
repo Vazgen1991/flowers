@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+
+  font-family: LedgerRegular,sans-serif;
+  color: $primary-color;
+  text-transform: uppercase;
+
+  &.text-center {
+    text-align: center;
+  }
+  &.text-left {
+    text-align: left;
+  }
+}
+h1 {
+  font-size: $font-alternative;
+}

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'LedgerRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/LedgerRegular/Ledger-regular.woff2') format('woff2'),
+  url('../fonts/LedgerRegular/Ledger-regular.woff') format('woff'),
+  url('../fonts/LedgerRegular/Ledger-regular.ttf') format('ttf'),
+  url('../fonts/LedgerRegular/Ledger-regular.eot') format('eot'),
+  url('../fonts/LedgerRegular/Ledger-regular.ttf');
+}
+@font-face {
+  font-family: 'ManropeBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/ManropeBold/Manrope-Bold.woff2') format('woff2'),
+  url('../fonts/ManropeBold/Manrope-Bold.woff') format('woff'),
+  url('../fonts/ManropeBold/Manrope-Bold.ttf') format('ttf'),
+  url('../fonts/ManropeBold/Manrope-Bold.eot') format('eot'),
+  url('../fonts/ManropeBold/Manrope-Bold.ttf');
+}
+@font-face {
+  font-family: 'ManropeSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/ManropeSemiBold/Manrope-SemiBold.woff2') format('woff2'),
+  url('../fonts/ManropeSemiBold/Manrope-SemiBold.woff') format('woff'),
+  url('../fonts/ManropeSemiBold/Manrope-SemiBold.ttf') format('ttf'),
+  url('../fonts/ManropeSemiBold/Manrope-SemiBold.eot') format('eot'),
+  url('../fonts/ManropeSemiBold/Manrope-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'ManropeMedium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/ManropeMedium/Manrope-Medium.woff2') format('woff2'),
+  url('../fonts/ManropeMedium/Manrope-Medium.woff') format('woff'),
+  url('../fonts/ManropeMedium/Manrope-Medium.ttf') format('ttf'),
+  url('../fonts/ManropeMedium/Manrope-Medium.eot') format('eot'),
+  url('../fonts/ManropeMedium/Manrope-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'MenropeLight';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/ManropeLight/Manrope-Light.woff2') format('woff2'),
+  url('../fonts/ManropeLight/Manrope-Light.woff') format('woff'),
+  url('../fonts/ManropeLight/Manrope-Light.ttf') format('ttf'),
+  url('../fonts/ManropeLight/Manrope-Light.eot') format('eot'),
+  url('../fonts/ManropeLight/Manrope-Light.ttf');
+}
