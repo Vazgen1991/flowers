@@ -1,77 +1,95 @@
-.gift-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: 500px;
-  text-align: center;
-  border: 1px solid #D9D9D9;
-  padding: 14px;
-  margin-top: 50px;
+.gif-card-content {
   position: relative;
-  .gift-img-block {
-    height: 330px;
-    margin-bottom: 25px;
-    margin: 0 auto;
-  }
-  .card-logo {
-    margin: 0 auto;
-  }
-  h6 {
-    line-height: 22px;
-    padding-top: 15px;
-    padding-bottom: 25px;
-  }
-  .price-block {
+  .gift-card {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: end;
-    width: 100%;
-    .card-price {
-      font-family: ManropeMedium,sans-serif;
-      font-size: 18px;
-      color: $custom-color;
-      &.sale-price {
-        color: #FF0C0C;
+    align-items: flex-start;
+    height: 500px;
+    text-align: center;
+    border: 1px solid #D9D9D9;
+    padding: 14px;
+    margin-top: 50px;
+    .gift-img-block {
+      height: 330px;
+      margin-bottom: 25px;
+      margin: 0 auto;
+    }
+    .card-logo {
+      margin: 0 auto;
+    }
+    h6 {
+      line-height: 22px;
+      padding-top: 15px;
+      padding-bottom: 25px;
+    }
+    .price-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      width: 100%;
+      .card-price {
+        font-family: ManropeMedium,sans-serif;
+        font-size: 18px;
+        color: $custom-color;
+        &.sale-price {
+          color: #FF0C0C;
+        }
       }
+      .old-price {
+        font-size: $font-primary;
+        margin-bottom: 3px;
+        text-decoration: line-through;
+        color: #8C8C8C;
+      }
+
     }
-    .old-price {
-      font-size: $font-primary;
-      margin-bottom: 3px;
-      text-decoration: line-through;
+
+    &.border-none {
+      border: none;
     }
-    .card-icon {
+    .sale-percent {
+      font-family: ManropeBold,sans-serif;
+      font-size: 13px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35px;
+      height: 35px;
+      background: #FF0C0C;
+      border-radius: 50%;
+      color: #ffffff;
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 35px;
-      height: 35px;
-      background: $secondary-color;
-      border-radius: 50%;
     }
+
   }
-  .card-like-img {
+  .card-icon {
     position: absolute;
-    top: 14px;
-    right: 14px;
-  }
-  &.border-none {
-    border: none;
-  }
-  .sale-percent {
-    font-family: ManropeBold,sans-serif;
-    font-size: 13px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 35px;
-    height: 35px;
-    background: #FF0C0C;
-    border-radius: 50%;
-    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: $secondary-color;
+    border-radius: 50%;
+    right: 0;
+    bottom: 12px;
+    &:hover {
+      cursor: pointer;
+    }
   }
-
+  .card-like-img {
+    @include transition(.3s all ease);
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
 }
+
+
