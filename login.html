@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-v4-grid-only@1.0.0/dist/bootstrap-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <div class="header-top-bg">
+            <p>Войдите, чтобы получить индивидуальные цены</p>
+        </div>
+        <div class="container-custom">
+            <div class="logo mobile-logo">
+                <h1>
+                    <a href="#" class="logo-img">
+                        <img src="assets/images/home/logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <div class="header-top">
+
+                <a class="search">
+                    <div class="header-search">
+
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <div class="logo">
+                    <h1>
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/home/logo.png" alt="logo">
+                        </a>
+                    </h1>
+                </div>
+                <div class="header-tools">
+                    <li class="switcher-lang">
+                        <a href="" class="lang">RU <i class="icon-down-2"></i></a>
+                        <ul class="lang-list">
+                            <li class="lang-item"><a href="#">Russian</a></li>
+                            <li class="lang-item"><a href="#">Armenian</a></li>
+                        </ul>
+                    </li>
+                    <a href="#"><span class="icon-user m-r-20"></span></a>
+                    <a href="#"><span class="icon-cart"></span></a>
+
+                </div>
+            </div>
+            <div class="header-top-mobile">
+                <ul>
+                    <li>
+                        <a class="menu-burger">
+                            <span><img src="assets/images/home/menu.svg" alt="img" style="width: 20px; height: 20px"></span>
+                            <span class="m-t-10">Menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="search-mb">
+                            <span class="icon-search"></span>
+                            <span class="m-t-10">Search</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-user"></span>
+                            <span class="m-t-10">Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-cart"></span>
+                            <span class="m-t-10">Cart</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item category">
+                        <a href="#" class="nav-link flex">
+                            РОЗЫ
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+
+                        <ul class="nav-submenu-list">
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БУКЕТЫ РОЗ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">О НАС</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БЛОГ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">РУКОВОДСТВА ПО УХОДУ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">СВЯЗАТЬСЯ С НАМИ</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="header-search-block ">
+                <form action="#" class="form-search">
+                    <div class="form-search-block">
+                        <input type="text" class="form-input" placeholder="Search for something">
+                        <button class="search-button-close button" type="button">
+                            <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <div class="search-result">
+                    <div class="container-custom">
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="mobile-nav">
+            <button class="nav-close-icon">
+                <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <a href="" class="mobile-nav-link">РОЗЫ</a>
+                        <button class="btn btn-link mobile-nav-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <a href="" class="mobile-nav-link">БУКЕТЫ РОЗ</a>
+
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <a href="" class="mobile-nav-link">О НАС</a>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThre">
+                        <a href="" class="mobile-nav-link"> БЛОГ</a>
+
+                    </div>
+                    <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headings">
+                        <a href="" class="mobile-nav-link"> СВЯЗАТЬСЯ С НАМИ</a>
+
+                    </div>
+                    <div id="collapseheadings" class="collapse" aria-labelledby="headings" data-parent="#accordion">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-search-mobile-block">
+
+            <form action="#" class="mb-form-search">
+                <div class="mb-form-search-block">
+                    <input type="text" class="mb-form-input" placeholder="Search for something">
+                    <button class="mb-search-button-close button" type="button">
+
+                        <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="search-result">
+                <div class="container-custom">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section>
+        <div class="login-content">
+            <div class="breadcrumbs">
+                <a href="">главная</a> <span class="divider">/</span>
+                <a href="">Аккаунт </a> <span class="divider">/</span>
+                <a href="">вход</a>
+            </div>
+            <div class="login-form">
+                <form action="#">
+                    <h1 class="login-heading text-center">вход</h1>
+                    <div class="input-wrapper m-t-30">
+                        <label>Электронная почта</label>
+                        <input type="text" maxlength="80" placeholder="ваш@gmail.com">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Пароль</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30 flex align-center jus">
+                        <a class="btn-custom filled primary button-xsm  comment-btn login m-r-20">вход</a>
+                        <a href="#" class="forgot-password">Забыли пароль?</a>
+                    </div>
+                    <div class="new-client">
+                        <h5 class="text-left">НОВЫЙ КЛИЕНТ?</h5>
+                        <p class="login-txt">
+                            Зарегистрируйте учетную запись, чтобы воспользоваться отслеживанием и историей заказов,
+                            а также предварительно заполненными формами во время оформления последующих заказов.
+                        </p>
+                        <a CLASS="register-btn">регистрировать</a>
+                    </div>
+                </form>
+            </div>
+            <div class="forgot-pass-form">
+                <form action="#">
+                    <h2 class="login-heading text-center">вход</h2>
+                    <div class="input-wrapper m-t-30">
+                        <label>Электронная почта</label>
+                        <input type="text" maxlength="80" placeholder="ваш@gmail.com">
+                    </div>
+
+                    <div class="input-wrapper m-t-30 flex align-center">
+                        <a class="btn-custom filled primary button-md comment-btn   m-r-20">Сброс пароля</a>
+                        <a href="#" class="forgot-password">Отмена</a>
+                    </div>
+                    <div class="new-client">
+                        <h5 class="text-left">НОВЫЙ КЛИЕНТ?</h5>
+                        <p class="login-txt">
+                            Зарегистрируйте учетную запись, чтобы воспользоваться отслеживанием и историей заказов,
+                            а также предварительно заполненными формами во время оформления последующих заказов.
+                        </p>
+                        <a class="register-btn">регистрировать</a>
+                    </div>
+                </form>
+            </div>
+            <div class="check">
+                <p class="check-txt">Чтобы продолжить, сообщите нам, что вы не робот.</p>
+                <div class="check-block"></div>
+                <a class="order-submit serve">подавать</a>
+
+            </div>
+            <div class="register-form">
+                <form action="#">
+                    <h2 class="login-heading text-center">ЗАРЕГИСТРИРОВАТЬСЯ</h2>
+                    <div class="input-wrapper m-t-30">
+                        <label>Имя</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Фамилия</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Электронная почта</label>
+                        <input type="text" maxlength="80" placeholder="ваш@gmail.com">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Пароль</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <a class="btn-custom filled primary button-md comment-btn  m-t-30">регистрировать</a>
+                </form>
+
+            </div>
+            <div class="account">
+                <h2 class="login-heading text-center">аккаунт</h2>
+                <p class="account-txt">Вошла как <span>Ани Саргсян </span>(Выйти) • Адреса (1)</p>
+                <div class="address-block">
+                    <h5>АДРЕС ПО УМОЛЧАНИЮ</h5>
+                    <ul>
+                        <li>Ani Sargsyan</li>
+                        <li>Армения</li>
+                        <a class="edit">редактировать</a>
+                    </ul>
+
+                    <div class="order-history">
+                        <h5>ИСТОРИЯ ЗАКАЗОВ</h5>
+                        <div class="history-list-content">
+                            <div class="history-list-heading">
+                                <ul class="row">
+                                    <li class="col-md-3">Заказ</li>
+                                    <li class="col-md-3">Оплата</li>
+                                    <li class="col-md-3">Выполнение</li>
+                                    <li class="col-md-3">Общий</li>
+                                </ul>
+                            </div>
+                            <div class="history-list-item">
+                                <ul class="row">
+                                    <li class="col-md-3">werer</li>
+                                    <li class="col-md-3">qqqqqq</li>
+                                    <li class="col-md-3">erwerwer</li>
+                                    <li class="col-md-3">werwerwerw</li>
+                                </ul>
+                            </div>
+                            <div class="history-list-item">
+                                <ul class="row">
+                                    <li class="col-md-3">werer</li>
+                                    <li class="col-md-3">qqqqqq</li>
+                                    <li class="col-md-3">erwerwer</li>
+                                    <li class="col-md-3">werwerwerw</li>
+                                </ul>
+                            </div>
+                            <p class="empty-text">Вы еще не разместили заказов.</p>
+                            <div class="product-pagination history-pagination">
+                                <a class="m-r-30"><img class="m-r-10" src="assets/images/blog/icon-left-arrow.svg" alt="svg">Предыдущая</a>
+                                <span>Страница 1 из 5</span>
+                                <a class="m-l-30">Следующая<img class="m-l-10" src="assets/images/blog/icon-right-arrow.svg" alt="svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="edit">
+                <h2 class="text-center">АДРЕСА</h2>
+                <p class="edit-txt">Вошла как <span>Ани Саргсян </span>(Выйти)</p>
+                <ul>
+                    <li>Ani Sargsyan</li>
+                    <li>Армения</li>
+                    <span>Это адрес по умолчанию.</span>
+                    <a class="edit-address-link">Редактировать</a> /
+                    <a class="edit-delete">Удалить</a>
+                </ul>
+
+
+                <button class="btn-custom  filled  primary button-xl comment-btn m-t-60 address-btn">ДОБАВИТЬ НОВЫЙ АДРЕС</button>
+            </div>
+            <div class="new-address">
+                <form class="address">
+                    <div class="input-wrapper m-t-30">
+                        <label>Имя</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Фамилия</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Компания</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Адресная строка 1</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Адресная строка 2</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Город</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label> Штат/Провинция</label>
+                        <div class="select-block address-select-block">
+                            <select>
+                                <option value="1">Аляска</option>
+                                <option value="2">Белый</option>
+                                <option value="3">Белый</option>
+                            </select>
+                            <span class="icon-arrow-down select-icon"></span>
+                        </div>
+
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label> Страна</label>
+                        <div class="select-block address-select-block">
+                            <select>
+                                <option value="1">Соединенные Штаты</option>
+                                <option value="2">Белый</option>
+                                <option value="3">Белый</option>
+                            </select>
+                            <span class="icon-arrow-down select-icon"></span>
+                        </div>
+
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label> Почтовый индекс</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="input-wrapper m-t-30">
+                        <label>Phone</label>
+                        <input type="text" maxlength="80">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="default">
+                        <label for="default">Установить как адрес по умолчанию?</label>
+                    </div>
+                    <div class="address-btn-block">
+                        <button class="btn-custom filled primary button-md comment-btn m-r-30">Сохранить адрес</button>
+                        <button class="register-btn close-modal">отмена</button>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="promotions" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+            <div class="container-custom">
+                <div class="page-heading-title">
+                    <h2>Собери букет сам</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="promo">
+                            <div class="promo-title">
+                                <h4 class="promo-heading">Обилие цветов</h4>
+                                <p class="promo-text"> открой наше предложение оптовых цветов </p>
+                            </div>
+                            <div class="promo-img-block">
+                                <img src="assets/images/home/gift-categ-1.png" alt="img" class="promo-img">
+                                <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="promo">
+                            <div class="promo-title">
+                                <h4 class="promo-heading">Собери букет сам</h4>
+                                <p class="promo-text"> у нас есть все необходимые средства за уходом за вашими цветами </p>
+                            </div>
+                            <div class="promo-img-block">
+                                <img src="assets/images/home/gift-categ-2.png" alt="img" class="promo-img">
+                                <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="promo">
+                            <div class="promo-title">
+                                <h4 class="promo-heading">Подарочная карта</h4>
+                                <p class="promo-text"> Посмотрите выбор подарочных карт </p>
+
+                            </div>
+                            <div class="promo-img-block">
+                                <img src="assets/images/home/gift-categ-3.png" alt="img" class="promo-img">
+                                <a href="" class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="address-delete-modal">
+        <p class="m-t-20 bold">flowersmore.com говорит</p>
+        <p class="m-t-20">Вы уверены, что хотите удалить этот адрес?</p>
+        <div class="modal-buttons">
+            <button class="m-r-10 btn-custom filled primary">OK</button>
+            <button class="cancel">Cancel</button>
+        </div>
+
+    </div>
+    <div class="edit-address">
+        <div class="edit-address-heading">
+            <h2>Редактировать</h2>
+            <button class="edit-close-btn">
+                ЗАКРЫТЬ
+                <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+        </div>
+        <form class="address">
+            <div class="input-wrapper m-t-20">
+                <label>Имя</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="input-wrapper m-t-10">
+                <label>Фамилия</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="input-wrapper m-t-10">
+                <label>Компания</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="input-wrapper m-t-10">
+                <label>Адресная строка 1</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="input-wrapper m-t-10">
+                <label>Адресная строка 2</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="input-wrapper m-t-10">
+                <label>Город</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="input-wrapper m-t-10 m-b-10">
+                <label> Штат/Провинция</label>
+                <div class="select-block address-select-block">
+                    <select>
+                        <option value="1">Аляска</option>
+                        <option value="2">Белый</option>
+                        <option value="3">Белый</option>
+                    </select>
+                    <span class="icon-arrow-down select-icon"></span>
+                </div>
+
+            </div>
+            <div class="input-wrapper m-t-10 m-b-10">
+                <label> Страна</label>
+                <div class="select-block address-select-block">
+                    <select>
+                        <option value="1">Соединенные Штаты</option>
+                        <option value="2">Белый</option>
+                        <option value="3">Белый</option>
+                    </select>
+                    <span class="icon-arrow-down select-icon"></span>
+                </div>
+
+            </div>
+            <div class="input-wrapper m-t-10">
+                <label> Почтовый индекс</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="input-wrapper m-t-10">
+                <label>Phone</label>
+                <input type="text" maxlength="80">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="edit">
+                <label for="edit">Установить как адрес по умолчанию?</label>
+            </div>
+            <div class="address-btn-block">
+                <button class="btn-custom filled primary button-md comment-btn m-r-30">Сохранить адрес</button>
+                <button class="register-btn close-modal">отмена</button>
+            </div>
+
+
+        </form>
+    </div>
+
+</main>
+
+
+<footer>
+    <div class="footer">
+        <div class="container-custom">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">О нас</p>
+                        <ul>
+                            <li><a href="#">Всё о наших цветах</a></li>
+                            <li><a href="#">Наш Блог</a></li>
+                            <li><a href="#">Связаться с нами</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">Розы</p>
+                        <ul>
+                            <li><a href="#">Букеты роз</a></li>
+                            <li><a href="#">Премиум</a></li>
+                            <li><a href="#">Эксклюзивные</a></li>
+                            <li><a href="#">Штучные</a></li>
+                            <li><a href="#">Мелкий опт</a></li>
+                            <li><a href="#">Лепестки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social">
+                        <p class="footer-heading">НОВОСТНАЯ РАССЫЛКА</p>
+                        <form action="#" class="footer-form">
+                            <div class="footer-input-block">
+                                <input type="text" placeholder="ваш@gmail.com" class="footer-input">
+                            </div>
+
+                        </form>
+                        <ul class="footer-social-list">
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-facebook"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-pinterest"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                        <ul class="payment-list">
+                            <li class="payment-item"><img src="assets/images/home/visa.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/master-card.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/meta.png" alt="img"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="flex align-center">Developed by <a href="" class="m-l-5 m-r-5"><img src="assets/images/home/lamp-logo.png" alt="logo"></a>&copy 2023</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

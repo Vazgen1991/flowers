@@ -40,17 +40,11 @@ $(document).ready(function () {
 
 
     });
-
-
-    ;
-
-
-
-
-
-
-
-
-
-
+    $( ".calendar" ).datepicker({
+        dateFormat: 'dd/mm/yy',
+        firstDay: 1
+    });
+    $( function() {
+        $( "#datepicker" ).datepicker();
+    } );
 });

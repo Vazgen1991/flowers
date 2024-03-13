@@ -1,9 +1,58 @@
+//.btn-custom {
+//  font-family: ManropeBold, sans-serif;
+//  width: 100%;
+//  text-transform: uppercase;
+//  display: inline-block;
+//  color: #ffffff;
+//  @include transition(all .3s);
+//  &.filled {
+//    border-radius: 3px;
+//
+//    &.primary {
+//      background: $secondary-color;
+//      &:hover {
+//
+//        @include transition(all .3s);
+//        background-color: darken($secondary-color, 5%);
+//
+//      }
+//    }
+//
+//  }
+//  &.outline {
+//    background: #3D3838;
+//    border: 1px solid $secondary-color;
+//
+//  }
+//
+//  &:hover {
+//    cursor: pointer;
+//  }
+//
+//  &.button-lg {
+//
+//    max-width: 214px;
+//    height: 35px;
+//  }
+//
+//  &.button-xs {
+//
+//    max-width: 122px;
+//    height: 30px;
+//
+//  }
+//
+//}
 .btn-custom {
   font-family: MenropeBold, sans-serif;
   width: 100%;
   text-transform: uppercase;
   display: inline-block;
-  color: #ffffff;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px !important;
   @include transition(all .3s);
   &.filled {
     border-radius: 2px;
@@ -33,12 +82,88 @@
     max-width: 214px;
     height: 35px;
   }
+  &.button-xl {
+
+    max-width: 201px;
+    height: 40px;
+    &.comment-btn {
+      font-family: ManropeRegular, sans-serif;
+      height: 40px;
+      font-size: 12px;
+    }
+  }
+  &.button-md {
+
+    max-width: 153px;
+    height: 40px;
+    &.comment-btn {
+      font-family: ManropeRegular, sans-serif;
+      height: 40px;
+      font-size: 12px;
+    }
+  }
 
   &.button-xs {
 
     max-width: 122px;
     height: 30px;
+    &.order-submit {
+      height: 40px;
+      line-height: 17px;
+    }
+    &.comment-btn {
+      font-family: ManropeRegular, sans-serif;
+      height: 40px;
+      font-size: 12px;
+    }
+
+  }
+  &.button-xsm {
+
+    max-width: 80px;
+    height: 40px;
+    &.comment-btn {
+      font-family: ManropeRegular, sans-serif;
+      height: 40px;
+      font-size: 12px !important;
+    }
 
   }
 
 }
+.register-btn {
+  font-family: MenropeRegular,sans-serif;
+  max-width: 153px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 3px;
+  color: $text-secondary-color;
+  border: 1px solid $alternative-color;
+  background: #ffffff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  @include transition(all .3s);
+  &.reset-btn {
+    background: $primary-color;
+    color: #ffffff !important;
+    &:hover {
+      cursor: pointer;
+      opacity: .7;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    border: 1px solid darken($alternative-color, 5%);
+
+  }
+}
+
+
+
+
+
+

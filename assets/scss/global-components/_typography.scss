@@ -10,7 +10,53 @@ h1, h2, h3, h4, h5, h6 {
   &.text-left {
     text-align: left;
   }
+  &.custom-color {
+    color: $custom-color;
+  }
 }
 h1 {
   font-size: $font-alternative;
 }
+h2 {
+  font-size: $font-lg;
+  @include for-desktop-up {
+    font-size: 26px;
+  }
+  @include for-tablet-landscape-up {
+    font-size: 22px;
+  }
+  @include for-tablet-portrait-up {
+    font-size: 19px;
+  }
+  &.login-heading {
+    font-size: $font-lg;
+  }
+}
+h3 {
+  &.slider-heading {
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    @include for-tablet-landscape-up {
+      font-size: 32px;
+    }
+    @include for-tablet-portrait-up {
+      font-size: 26px;
+    }
+  }
+  @include for-desktop-up-lg {
+    line-height: 20px;
+  }
+  @include for-tablet-landscape-up {
+    font-size: 14px;
+  }
+}
+h4 {
+  &.footer-heading {
+    font-size: $font-xsm;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+

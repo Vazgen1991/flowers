@@ -19,6 +19,16 @@
   url('../fonts/ManropeBold/Manrope-Bold.ttf');
 }
 @font-face {
+  font-family: 'MenropeRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MenropeRegular/Manrope-Regular.woff2') format('woff2'),
+  url('../fonts/MenropeRegular/Manrope-Regular.woff') format('woff'),
+  url('../fonts/MenropeRegular/Manrope-Regular.ttf') format('ttf'),
+  url('../fonts/MenropeRegular/Manrope-Regular.eot') format('eot'),
+  url('../fonts/MenropeRegular/Manrope-Regular.ttf');
+}
+@font-face {
   font-family: 'ManropeSemiBold';
   font-style: normal;
   font-weight: 600;

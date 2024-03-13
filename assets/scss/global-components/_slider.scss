@@ -1,4 +1,29 @@
+.orderSwiper {
+  max-width: 613px;
+  width: 100%;
+  margin-top: 10px;
+  .swiper-wrapper {
+    .swiper-slide {
+      max-width: 613px;
+      width: 100%;
+    }
 
+    &.order-slider-thumb {
+      justify-content: center;
+      .thumb-swiper-slide {
+        width: 92px !important;
+        height: 92px;
+        @include for-phone-only {
+          width: 75px !important;
+          height: 75px;
+        }
+        &.swiper-slide-thumb-active {
+          border: 1px solid black;
+        }
+      }
+    }
+  }
+}
 
 .swiper-button-next,
 .swiper-button-prev {

@@ -1,0 +1,63 @@
+.page-card-item {
+  text-align: center;
+
+  a {
+    display: block;
+    @include transition(.5s all ease);
+    .img-wrapper {
+      max-width: 330px;
+      height: 330px;
+      @include for-desktop-up-md {
+        padding-top: 97%;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: block;
+
+      }
+      @include for-phone-only {
+        max-width: unset;
+      }
+      .card-image {
+        height: 100%;
+        object-fit: cover;
+        @include for-desktop-up-md {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 100%;
+          width: 100%;
+          -o-object-fit: cover;
+          object-fit: cover;
+          display: block;
+
+        }
+      }
+    }
+    &:hover {
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      transform: scale(0.9);
+    }
+  }
+
+
+
+  span {
+    display: block;
+    margin-top: 20px;
+    font-size: $font-xsm;
+    color: $text-secondary-color;
+  }
+  .card-heading {
+    margin: 15px 0;
+  }
+  .card-price {
+    font-size: 14px;
+  }
+  @include for-phone-only {
+    margin-bottom: 40px;
+  }
+
+}

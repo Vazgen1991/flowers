@@ -1,0 +1,43 @@
+.care-content {
+  margin: 50px 0 100px 0;
+  h1 {
+    font-size: $font-lg;
+    padding: 0 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    @include for-tablet-portrait-up {
+      padding: 0;
+      font-size: 24px;
+    }
+    @include for-phone-sm-only {
+      padding: 0;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 40px;
+    }
+  }
+  .care-txt {
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: $text-primary-color;
+  }
+  .item-block {
+    margin-top: 40px;
+    .item {
+      text-align: center;
+      @include for-phone-only {
+        margin-top: 30px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        color: $text-primary-color;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+}

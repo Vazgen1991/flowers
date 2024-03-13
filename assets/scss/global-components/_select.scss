@@ -1,0 +1,80 @@
+.select-box {
+  display: flex;
+  justify-content: space-between;
+  @include for-tablet-landscape-up {
+    margin-top: 100px;
+  }
+  @include for-phone-sm-only {
+    flex-direction: column;
+  }
+  .select-content {
+    color: $text-secondary-color;
+    max-width: 215px;
+    width: 100%;
+    .select-title {
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin-bottom: 20px;
+      @include for-desktop-up {
+        font-size: 13px;
+      }
+    }
+
+
+    @include for-phone-sm-only {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+}
+.select-block {
+  position: relative;
+  display: flex;
+  height: 35px;
+  overflow: hidden;
+  &.address-select-block {
+    height: 30px;
+  }
+  &.payment-select-block {
+    height: 44px;
+    font-size: 13px;
+    select {
+      color: $text-primary-color;
+    }
+  }
+  select {
+    appearance: none;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    color: $text-secondary-color;
+    border-radius: 3px;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    background-color: #ffffff;
+    background-image: none;
+    cursor: pointer;
+
+
+
+  }
+  .select-icon {
+    display: flex;
+    padding: 0;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.select:hover::after {
+  color: #f39c12;
+}
