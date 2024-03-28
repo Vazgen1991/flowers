@@ -40,6 +40,15 @@ $(document).ready(function () {
 
 
     });
+    $('.notification').click(function () {
+        $('.notification-cart').toggleClass('open-cart');
+
+    });
+    $('.close-cart').on('click', function () {
+        $('.notification-cart').removeClass("open-cart");
+
+
+    });
     $( ".calendar" ).datepicker({
         dateFormat: 'dd/mm/yy',
         firstDay: 1
@@ -47,4 +56,7 @@ $(document).ready(function () {
     $( function() {
         $( "#datepicker" ).datepicker();
     } );
+
+
+
 });

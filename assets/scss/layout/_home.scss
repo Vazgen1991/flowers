@@ -75,6 +75,7 @@
 .gift {
   padding: 80px 0 40px 0;
   .slider-card {
+    display: inline-block;
     text-align: center;
     .slider-img-block {
       height: 330px;
@@ -83,6 +84,9 @@
       justify-content: center;
       margin-bottom: 25px;
 
+    }
+    img {
+      margin: 0 auto;
     }
     h6 {
       margin-top: 15px;
@@ -95,6 +99,7 @@
 .holidays {
   padding: 60px 0 80px 0;
   .holiday-item {
+    display: inline-block;
     padding-top: 30px;
     @include for-tablet-portrait-up {
       text-align: center;
@@ -109,29 +114,32 @@
       height: 104px;
       background: $secondary-color;
       color: #ffffff;
-      padding: 19px 0 5px 0;
+      padding: 17px 0 5px 0;
       text-align: center;
-      .promo-heading {
-        font-size: $font-lg;
-        color: #fff;
-        @include for-desktop-up {
-          font-size: 22px;
-        }
-        @include for-tablet-landscape-up {
-          font-size: 17px;
-        }
+      @include for-desktop-up {
+        padding: 5px 0 5px 0;
       }
+      @include for-tablet-portrait-up {
+        padding: 12px 0 5px 0;
+      }
+
       .promo-text {
-        font-size: 16px;
-        line-height: 19px;
-        margin-top: 12px;
-        letter-spacing: 0.1em;
+        font-family: LedgerRegular, sans-serif;
+        font-size: 28px;
+        line-height: 35px;
         padding: 0 20px;
+        @include for-desktop-up-lg {
+          font-size: 24px;
+          line-height: 30px;
+        }
         @include for-desktop-up {
-          font-size: 14px;
-          padding: 0 5px;
-          line-height: 16px;
-          letter-spacing: 0.6px;
+          font-size: 20px;
+          line-height: 28px;
+          //letter-spacing: 0.6px;
+        }
+        @include for-tablet-portrait-up {
+          font-size: 26px;
+          line-height: 28px;
         }
       }
 
