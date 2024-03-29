@@ -2,16 +2,18 @@
   background: #F5F5F5;
   .payment-content {
     display: flex;
-    @include for-tablet-portrait-up {
-      flex-direction: column;
-    }
+    flex-direction: column-reverse;
+    align-items: center;
+    //@include for-tablet-portrait-up {
+    //  flex-direction: column;
+    //}
     .left-content {
       max-width: 1047px;
       width: 100%;
 
       .payment-block {
         display: flex;
-        justify-content: end;
+        justify-content: center;
         background: #ffffff;
         padding-right: 40px;
         padding-left: 15px;
@@ -287,13 +289,14 @@
       }
     }
     .right-content {
+      display: flex;
+      justify-content: center;
       max-width: 862px;
       width: 100%;
       .choose-item-block {
         max-width: 462px;
         width: 100%;
-        margin-top: 40px;
-        padding-left: 40px;
+        margin: 40px 0;
         @include for-tablet-landscape-up {
           padding: 0 15px;
         }

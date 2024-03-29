@@ -2,11 +2,10 @@
   font-family: ManropeMedium, sans-serif;
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 338px;
+  max-width: 339px;
   width: 100%;
-  height: 60px;
-  font-size: $font-sm;
+  height: 50px;
+  font-size: 14px;
   background: $secondary-color;
   color: #ffffff;
   border-radius: $border-primary;
@@ -14,11 +13,21 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0 0 0 20px;
+  &.success {
+    background: #4DA44B;
+  }
+  &.warning {
+    background: #FF9901;
+  }
+  &.danger {
+    background: #D0080A;
+  }
   a {
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 15px;
+    top: 16px;
     &:hover {
       cursor: pointer;
     }

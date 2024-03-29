@@ -1,48 +1,4 @@
-//.btn-custom {
-//  font-family: ManropeBold, sans-serif;
-//  width: 100%;
-//  text-transform: uppercase;
-//  display: inline-block;
-//  color: #ffffff;
-//  @include transition(all .3s);
-//  &.filled {
-//    border-radius: 3px;
-//
-//    &.primary {
-//      background: $secondary-color;
-//      &:hover {
-//
-//        @include transition(all .3s);
-//        background-color: darken($secondary-color, 5%);
-//
-//      }
-//    }
-//
-//  }
-//  &.outline {
-//    background: #3D3838;
-//    border: 1px solid $secondary-color;
-//
-//  }
-//
-//  &:hover {
-//    cursor: pointer;
-//  }
-//
-//  &.button-lg {
-//
-//    max-width: 214px;
-//    height: 35px;
-//  }
-//
-//  &.button-xs {
-//
-//    max-width: 122px;
-//    height: 30px;
-//
-//  }
-//
-//}
+
 .btn-custom {
   font-family: MenropeBold, sans-serif;
   width: 100%;
