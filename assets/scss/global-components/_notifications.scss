@@ -104,7 +104,17 @@
     }
 
     &.item-border-none {
-      border-bottom: none;
+      //border-bottom: none;
+    }
+  }
+  .back-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    a {
+      font-size: 12px;
+      background: $alternative-color!important;
     }
   }
   .cart-footer {
