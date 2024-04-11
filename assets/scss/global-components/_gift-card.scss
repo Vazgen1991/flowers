@@ -64,6 +64,7 @@
       justify-content: center;
     }
 
+
   }
   .card-icon {
     position: absolute;
@@ -88,6 +89,38 @@
     &:hover {
       cursor: pointer;
       transform: scale(1.1);
+    }
+  }
+  &.shop-gift-card-content {
+    .gift-shop-card {
+      margin-top: 0;
+      @include for-desktop-up {
+        height: unset !important;
+      }
+      .shop-gift-img-block {
+        @include for-desktop-up {
+          height: 280px;
+        }
+        img {
+          @include for-desktop-up {
+            height: 250px;
+          }
+          @include for-tablet-landscape-up {
+            height: 230px;
+          }
+
+        };
+      }
+      h6 {
+        @include for-tablet-portrait-up {
+          font-size: 15px;
+        }
+      }
+      .price-block {
+        .card-price {
+          font-size: 15px;
+        }
+      }
     }
   }
 }

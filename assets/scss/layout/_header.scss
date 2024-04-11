@@ -14,7 +14,7 @@
     @include for-tablet-portrait-up {
       display: block;
     }
-    @include for-phone-only {
+    @include for-tablet-portrait-up {
       max-width: 230px;
       width: 100%;
       margin: auto;
@@ -186,10 +186,14 @@
       .nav-item {
         font-size: $font-secondary;
         margin-right: 65px;
+        @include for-desktop-up {
+          font-size: 14px;
+        }
         @include for-tablet-landscape-up {
           margin-right: 35px;
         }
         .nav-link {
+          padding: 0;
           color: $text-secondary-color;
           &:hover {
             opacity: .7;
@@ -324,6 +328,9 @@
           &::placeholder {
             font-family: ManropeLight, sans-serif;
             letter-spacing: 2.1px;
+          }
+          @include for-desktop-up-lg {
+            width: 94%;
           }
         }
         button {

@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-v4-grid-only@1.0.0/dist/bootstrap-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <div class="header-top-bg">
+            <p>Войдите, чтобы получить индивидуальные цены</p>
+        </div>
+        <div class="container-custom">
+            <div class="logo mobile-logo">
+                <h1>
+                    <a href="#" class="logo-img">
+                        <img src="assets/images/home/logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <div class="header-top">
+
+                <a class="search">
+                    <div class="header-search">
+
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <div class="logo">
+                    <h1>
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/home/logo.png" alt="logo">
+                        </a>
+                    </h1>
+                </div>
+                <div class="header-tools">
+                    <li class="switcher-lang">
+                        <a href="" class="lang">RU <i class="icon-down-2"></i></a>
+                        <ul class="lang-list">
+                            <li class="lang-item"><a href="#">Russian</a></li>
+                            <li class="lang-item"><a href="#">Armenian</a></li>
+                        </ul>
+                    </li>
+                    <a href="#"><span class="icon-user m-r-20"></span></a>
+                    <a href="#" class="notification">
+                        <span class="cart-count">3</span>
+                        <span class="icon-cart"></span>
+                        <div class="notification-cart">
+                            <div class="notification-cart-heading">
+                                <h6>корзина покупок </h6>
+                                <a href="#" class="close-cart"><img src="assets/images/home/close-icon.svg" alt="img"></a>
+                            </div>
+                            <div class="notification-cart-item">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-4.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+                                        <span class="cart-heading-price">20 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="notification-cart-item">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-3.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>24 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+                                        <span class="cart-heading-price">20 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="notification-cart-item item-border-none">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-2.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>Торт `Pop It`</h6>
+                                        <span class="cart-heading-price">15 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="back-link">
+                                <a href="#" class="btn-custom primary filled button-md m-r-10">view shopping cart</a>
+                                <a href="#" class="btn-custom primary filled button-md">checkout</a>
+                            </div>
+                            <div class="cart-footer">
+                                <h6 class="cart-footer-heading">корзина покупок </h6>
+                                <span class="cart-result-price">60 000 др.</span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="header-top-mobile">
+                <ul>
+                    <li>
+                        <a class="menu-burger">
+                            <span><img src="assets/images/home/menu.svg" alt="img" style="width: 20px; height: 20px"></span>
+                            <span class="m-t-10">Menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="search-mb">
+                            <span class="icon-search"></span>
+                            <span class="m-t-10">Search</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-user"></span>
+                            <span class="m-t-10">Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-cart"></span>
+                            <span class="m-t-10">Cart</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item category">
+                        <a href="#" class="nav-link flex">
+                            РОЗЫ
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+
+                        <ul class="nav-submenu-list">
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БУКЕТЫ РОЗ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">О НАС</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БЛОГ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">РУКОВОДСТВА ПО УХОДУ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">СВЯЗАТЬСЯ С НАМИ</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="header-search-block ">
+                <form action="#" class="form-search">
+                    <div class="form-search-block">
+                        <input type="text" class="form-input" placeholder="Search for something">
+                        <button class="search-button-close button" type="button">
+                            <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <div class="search-result">
+                    <div class="container-custom">
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="mobile-nav">
+            <button class="nav-close-icon">
+                <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <a href="" class="mobile-nav-link">РОЗЫ</a>
+                        <button class="btn btn-link mobile-nav-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <a href="" class="mobile-nav-link">БУКЕТЫ РОЗ</a>
+
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <a href="" class="mobile-nav-link">О НАС</a>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThre">
+                        <a href="" class="mobile-nav-link"> БЛОГ</a>
+
+                    </div>
+                    <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headings">
+                        <a href="" class="mobile-nav-link"> СВЯЗАТЬСЯ С НАМИ</a>
+
+                    </div>
+                    <div id="collapseheadings" class="collapse" aria-labelledby="headings" data-parent="#accordion">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-search-mobile-block">
+
+            <form action="#" class="mb-form-search">
+                <div class="mb-form-search-block">
+                    <input type="text" class="mb-form-input" placeholder="Search for something">
+                    <button class="mb-search-button-close button" type="button">
+
+                        <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="search-result">
+                <div class="container-custom">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</header>
+<main>
+    <section class="shop-wrapper">
+        <div class="breadcrumbs">
+            <a href="">главная</a> <span class="divider">/</span>
+            <a href="">Розы</a> <span class="divider">/</span>
+            <a href="">букеты роз</a>
+        </div>
+        <div class="shop-heading">
+            <h2 class="text-center">БУКЕТЫ РОЗ</h2>
+        </div>
+        <div class="container-custom">
+            <div class="shop-content">
+                <div class="shop-filter-categories">
+                    <div class="shop-search">
+                        <input type="text" placeholder="Поиск продуктов">
+                        <span class="icon-search"></span>
+                    </div>
+                    <div class="shop-categories">
+                        <div class="shop-product-category-item">
+                            <button class="btn btn-primary shop-btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                Категории продукта
+                                <span class="icon-arrow-down shop-icon-down"></span>
+                            </button>
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card card-body">
+                                    <ul class="shop-product-list">
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Розы">
+                                                <label for="Розы"></label>
+                                            </div>
+                                            Розы
+
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Букет">
+                                                <label for="Букет"></label>
+                                            </div>
+                                            Букет роз
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Тюльпан">
+                                                <label for="Тюльпан"></label>
+                                            </div>
+                                            Тюльпан
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Гортензия">
+                                                <label for="Гортензия"></label>
+                                            </div>
+                                            Гортензия
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Орхидея">
+                                                <label for="Орхидея"></label>
+                                            </div>
+                                            Орхидея
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Гербера">
+                                                <label for="Гербера"></label>
+                                            </div>
+                                            Гербера
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Ромашка">
+                                                <label for="Ромашка"></label>
+                                            </div>
+                                            Ромашка
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Пионы">
+                                                <label for="Пионы"></label>
+                                            </div>
+                                            Пионы
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Фрезия">
+                                                <label for="Фрезия"></label>
+                                            </div>
+                                            Фрезия
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Хризантема">
+                                                <label for="Хризантема"></label>
+                                            </div>
+                                            Хризантема
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-product-category-item">
+                            <button class="btn btn-primary shop-btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
+                                Фильтровать по цене
+                                <span class="icon-arrow-down shop-icon-down"></span>
+                            </button>
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                    <div class="shop-price-filter">
+                                        <div id="slider-range"></div>
+
+                                        <p class="range-result">
+                                            <label for="amount">Ваш диапазон</label>
+                                            <input type="text" id="amount" readonly="" >
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-product-category-item">
+                            <button class="btn btn-primary shop-btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">
+                                Фильтровать по цвету
+                                <span class="icon-arrow-down shop-icon-down"></span>
+                            </button>
+                            <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                <div class="card card-body">
+
+                                        <ul class="shop-product-list shop-color-filter">
+                                            <li>
+                                                <div class="checkbox shop-checkbox">
+                                                    <input type="checkbox" id="Желтый">
+                                                    <label for="Желтый"></label>
+                                                </div>
+                                                Желтый
+                                                <span class="color-circle yellow"></span>
+                                            </li>
+                                            <li>
+                                                <div class="checkbox shop-checkbox">
+                                                    <input type="checkbox" id="Красный">
+                                                    <label for="Красный"></label>
+                                                </div>
+                                                Красный
+                                                <span class="color-circle red"></span>
+                                            </li>
+                                            <li>
+                                                <div class="checkbox shop-checkbox">
+                                                    <input type="checkbox" id="Синий">
+                                                    <label for="Синий"></label>
+                                                </div>
+                                                Синий
+                                                <span class="color-circle blue"></span>
+                                            </li>
+                                            <li>
+                                                <div class="checkbox shop-checkbox">
+                                                    <input type="checkbox" id="Зеленый">
+                                                    <label for="Зеленый"></label>
+                                                </div>
+                                                Зеленый
+                                                <span class="color-circle green"></span>
+                                            </li>
+                                            <li>
+                                                <div class="checkbox shop-checkbox">
+                                                    <input type="checkbox" id="Розовый">
+                                                    <label for="Розовый"></label>
+                                                </div>
+                                                Розовый
+                                                <span class="color-circle pink"></span>
+                                            </li>
+                                            <li>
+                                                <div class="checkbox shop-checkbox">
+                                                    <input type="checkbox" id="Белый">
+                                                    <label for="Белый"></label>
+                                                </div>
+                                                Белый
+                                                <span class="color-circle white"></span>
+                                            </li>
+                                            <li>
+                                                <div class="checkbox shop-checkbox">
+                                                    <input type="checkbox" id="Оранжевый">
+                                                    <label for="Оранжевый"></label>
+                                                </div>
+                                                Оранжевый
+                                                <span class="color-circle orange"></span>
+                                            </li>
+
+                                        </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-product-category-item">
+                            <button class="btn btn-primary shop-btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">
+                                Фильтровать по поводу
+                                <span class="icon-arrow-down shop-icon-down"></span>
+                            </button>
+                            <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                <div class="card card-body">
+                                    <ul class="shop-product-list">
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Выздоравливай">
+                                                <label for="Выздоравливай"></label>
+                                            </div>
+                                            Выздоравливай
+
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Армейский праздник">
+                                                <label for="Армейский праздник"></label>
+                                            </div>
+                                            Армейский праздник
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Весна">
+                                                <label for="Весна"></label>
+                                            </div>
+                                            Весна
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Рождение ребенка">
+                                                <label for="Рождение ребенка"></label>
+                                            </div>
+                                            Рождение ребенка
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="День рождения">
+                                                <label for="День рождения"></label>
+                                            </div>
+                                            День рождения
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Свадьба">
+                                                <label for="Свадьба"></label>
+                                            </div>
+                                            Свадьба
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="День матери">
+                                                <label for="День матери"></label>
+                                            </div>
+                                            День матери
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Крещение">
+                                                <label for="Крещение"></label>
+                                            </div>
+                                            Крещение
+                                        </li>
+                                        <li>
+                                            <div class="checkbox shop-checkbox">
+                                                <input type="checkbox" id="Обручение">
+                                                <label for="Обручение"></label>
+                                            </div>
+                                            Обручение
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="shop-filter-content">
+                    <div class="swiper shopSwiper">
+                        <div class="swiper-wrapper shop-swiper-wrapper">
+                            <div class="swiper-slide shop-slider-head">Быстрые фильтры:</div>
+                            <div class="swiper-slide shop-swiper-slide">
+                                Рекомендуемые
+                            </div>
+                            <div class="swiper-slide shop-swiper-slide">
+                                Хит продаж
+                            </div>
+                            <div class="swiper-slide shop-swiper-slide ">
+                                Цена от низкой к высокой
+                            </div>
+                            <div class="swiper-slide shop-swiper-slide">
+                                По алфавиту А-Я
+                            </div>
+                            <div class="swiper-slide shop-swiper-slide">
+                                Oт старого к новому
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sort-shop-item">
+                        <p>Показаны 9 из 20 результатов</p>
+                        <div class="sort-icons">
+                            <a href="#" class="sort"><img src="assets/images/shop/filter.png" alt="#"></a>
+                            <a href="#"><img src="assets/images/shop/sort.png" alt="#"></a>
+                        </div>
+                    </div>
+                    <div class="shop-item-content">
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-1.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">24 ФЕРМЕРСКИХ КРАСНЫХ РОЗ</h6>
+                                <div class="price-block">
+                                    <span class="card-price">25000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-8.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">24 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">20000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-11.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">пионовый букет роза</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">15000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-1.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">24 ФЕРМЕРСКИХ КРАСНЫХ РОЗ</h6>
+                                <div class="price-block">
+                                    <span class="card-price">25000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-8.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">24 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">20000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-11.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">пионовый букет роза</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">15000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-10.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Свадебная композиция с коньяком и цветами</h6>
+
+
+                                <div class="price-block">
+                                    <span class="card-price">33000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-9.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">Желе/средний/</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">18000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+                        <div class="gif-card-content shop-gift-card-content">
+                            <a class="gift-card gift-shop-card">
+                                <div class="gift-img-block shop-gift-img-block">
+                                    <img src="assets/images/home/gift-8.png" alt="img">
+                                </div>
+                                <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                <h6 class="text-left">24 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+
+                                <div class="price-block">
+                                    <span class="card-price">20000 др.</span>
+
+                                </div>
+
+                            </a>
+                            <span class="card-icon"><i class="icon-cart-trolley"></i></span>
+                            <img class="card-like-img" src="assets/images/home/like.png" alt="img">
+                        </div>
+
+                    </div>
+                    <div class="shop-filter-result-content">
+                        <div class="filter-result-card">
+                            <div class="filter-card">
+
+                                <div class="filter-img-block">
+                                    <img src="assets/images/home/gift-1.png" alt="img">
+                                </div>
+                                <div class="filter-card-info">
+                                    <img class="card-logo" src="assets/images/home/small-logo.png" alt="img">
+                                    <h6 class="text-left">24 ФЕРМЕРСКИХ КРАСНЫХ РОЗ</h6>
+                                    <div class="price-block">
+                                        <span class="card-price">25000 др.</span>
+
+                                    </div>
+                                    <div class="stars">
+                                        <input type="radio" id="star1" name="rating" value="1" />
+                                        <input type="radio" id="star2" name="rating" value="2" />
+                                        <input type="radio" id="star3" name="rating" value="3" />
+                                        <input type="radio" id="star4" name="rating" value="4" />
+                                        <input type="radio" id="star5" name="rating" value="5" />
+
+                                        <label for="star1" aria-label="Banana">1 star</label>
+                                        <label for="star2">2 stars</label>
+                                        <label for="star3">3 stars</label>
+                                        <label for="star4">4 stars</label>
+                                        <label for="star5">5 stars</label>
+                                    </div>
+                                    <p class="filter-card-txt">
+                                        Розы премиум-класса Bloomingmore, выращенные на ферме оптом, доступны в широком
+                                        разнообразии потрясающих оттенков, которые придадут изысканность
+                                        и класс любому случаю. Эти розы сохраняются в два раза дольше,
+                                        чем рыночные цветы.
+                                    </p>
+
+
+
+
+                                    <div class="filter-icons">
+                                        <a class="filter-card-icon-block cart"><img class="card-like-img m-r-10"
+                                                                                    src="assets/images/shop/cart.png"
+                                                                                    alt="img"> Добавить в корзину</a>
+                                        <span class="filter-card-icon-block circle open-single-cart">
+                                            <a><img class="card-like-img" src="assets/images/shop/eye.png"
+                                                    alt="img"></a>
+
+                                        </span>
+                                        <span class="filter-card-icon-block circle">
+                                            <a href="#">
+                                               <img class="card-like-img" src="assets/images/shop/heart.png" alt="img">
+                                            </a>
+
+                                        </span>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-pagination shop-pagination">
+
+                        <a class="m-r-30"><img class="m-r-10" src="assets/images/blog/icon-left-arrow.svg" alt="svg">Предыдущая</a>
+                        <span>Страница 1 из 5</span>
+                        <a class="m-l-30">Следующая<img class="m-l-10" src="assets/images/blog/icon-right-arrow.svg"alt="svg"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer>
+    <div class="footer">
+        <div class="container-custom">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">О нас</p>
+                        <ul>
+                            <li><a href="#">Всё о наших цветах</a></li>
+                            <li><a href="#">Наш Блог</a></li>
+                            <li><a href="#">Связаться с нами</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">Розы</p>
+                        <ul>
+                            <li><a href="#">Букеты роз</a></li>
+                            <li><a href="#">Премиум</a></li>
+                            <li><a href="#">Эксклюзивные</a></li>
+                            <li><a href="#">Штучные</a></li>
+                            <li><a href="#">Мелкий опт</a></li>
+                            <li><a href="#">Лепестки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social">
+                        <p class="footer-heading">НОВОСТНАЯ РАССЫЛКА</p>
+                        <form action="#" class="footer-form">
+                            <div class="footer-input-block">
+                                <input type="text" placeholder="ваш@gmail.com" class="footer-input">
+                            </div>
+
+                        </form>
+                        <ul class="footer-social-list">
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-facebook"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-pinterest"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                        <ul class="payment-list">
+                            <li class="payment-item"><img src="assets/images/home/visa.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/master-card.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/meta.png" alt="img"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="flex align-center">Developed by <a href="" class="m-l-5 m-r-5"><img src="assets/images/home/lamp-logo.png" alt="logo"></a>&copy 2023</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<div class="card-single-modal filter-result-card">
+    <div class="filter-card single-filter-card">
+        <div class="filter-img-block card-single-img-block">
+            <img src="assets/images/home/gift-1.png" alt="img" class="card-main-img">
+            <div class="logo">
+                <img class="shop-card-logo" src="assets/images/shop/shop-logo.png" alt="img">
+            </div>
+        </div>
+        <div class="filter-card-info card-single-modal-info">
+            <h6 class="text-left single-heading">24 ФЕРМЕРСКИХ КРАСНЫХ РОЗ</h6>
+            <div class="price-block">
+                <span class="card-price single-card-price">25000 др.</span>
+
+            </div>
+            <div class="stars">
+                <input type="radio" id="star6" name="rating" value="6" />
+                <input type="radio" id="star7" name="rating" value="7" />
+                <input type="radio" id="star8" name="rating" value="8" />
+                <input type="radio" id="star9" name="rating" value="9" />
+                <input type="radio" id="star10" name="rating" value="10" />
+
+                <label for="star6" aria-label="Banana">1 star</label>
+                <label for="star7">2 stars</label>
+                <label for="star8">3 stars</label>
+                <label for="star9">4 stars</label>
+                <label for="star10">5 stars</label>
+            </div>
+            <p class="filter-card-txt single-filter-card-txt">
+                Розы премиум-класса Bloomingmore, выращенные на ферме оптом, доступны в широком
+                разнообразии потрясающих оттенков, которые придадут изысканность
+                и класс любому случаю. Эти розы сохраняются в два раза дольше,
+                чем рыночные цветы.
+            </p>
+            <div class="single-property">
+                <p>Цвет</p>
+                <ul>
+                    <li><a class="red"></a></li>
+                    <li><a class="yellow"></a></li>
+                    <li><a class="blue"></a></li>
+                    <li><a class="purple"></a></li>
+                    <li><a class="green"></a></li>
+                </ul>
+                <ul class="shop-card-count">
+                    <li><p>Длина стержня</p><span>14 см</span></li>
+                    <li><p>Стеблей в коробке</p><span>25</span></li>
+                    <li class="last">
+                        <div class="count-btn">
+                            <button>-</button>
+                            <span>1</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="btn-custom filled primary add-to-cart">Добавить в корзину</button>
+                        <button class="like-btn">
+
+                            <img class="card-like-img" src="assets/images/shop/heart.png" alt="img">
+                        </button>
+
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <button class="single-close"><img src="assets/images/shop/single-close.png" alt="img"></button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="assets/js/jquery.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    var swiper = new Swiper(".shopSwiper", {
+        slidesPerView: 5,
+        spaceBetween: 20,
+        freeMode: true,
+        breakpoints: {
+            320: {
+                slidesPerView: 5,
+                spaceBetween: 10,
+
+
+            },
+            576: {
+                slidesPerView: 5,
+
+            },
+            768: {
+                slidesPerView: 5,
+                spaceBetween: 20,
+
+            },
+            992: {
+                slidesPerView: 5,
+
+
+            },
+
+        },
+
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

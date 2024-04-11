@@ -1,5 +1,19 @@
 
 $(document).ready(function () {
+    $( function() {
+        $( "#slider-range" ).slider({
+            range: true,
+            min: 0,
+            max: 500,
+            values: [ 75, 300 ],
+            slide: function( event, ui ) {
+                $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+            }
+
+        });
+        $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+            " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+    } );
 
     $('.menu-burger').click(function () {
         $('.header').toggleClass('open-burger');
@@ -49,6 +63,18 @@ $(document).ready(function () {
 
 
     });
+    $('.open-single-cart').click(function () {
+        $('.card-single-modal').addClass('single-cart-open');
+        $('body').addClass("visible");
+
+
+    });
+    $('.single-close').click(function () {
+        $('.card-single-modal').removeClass('single-cart-open');
+        $('body').removeClass("visible");
+
+    });
+
     $( ".calendar" ).datepicker({
         dateFormat: 'dd/mm/yy',
         firstDay: 1

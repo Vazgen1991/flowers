@@ -85,18 +85,22 @@
     }
   }
 
-  .product-pagination {
-    margin-top: 80px;
-    color: $text-primary-color;
+
+}
+.product-pagination {
+  margin-top: 80px;
+  color: $text-primary-color;
+  display: flex;
+  justify-content: center;
+  a {
     display: flex;
-    justify-content: center;
-    a {
-      display: flex;
-      img {
-        width: 17px;
-        height: 15px;
-      }
+    img {
+      width: 17px;
+      height: 15px;
     }
+  }
+  &.shop-pagination {
+    margin: 100px 0 80px 0;
   }
 }
 

@@ -243,6 +243,22 @@
 .checkbox input:checked + label:before {
   background: $secondary-color;
 }
+ .shop-checkbox input:checked + label:after {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 1px;
+   left: 6px;
+   width: 8px;
+   height: 14px;
+   border: solid $secondary-color;
+   border-width: 0 3px 3px 0;
+   transform: rotate(45deg);
+}
+.shop-checkbox input:checked + label:before {
+  background: #ffffff;
+  border-color: $secondary-color;
+}
 .address {
 
   max-width: 550px;
