@@ -180,3 +180,42 @@
 .top-sale {
   padding-top: 95px;
 }
+.no-result {
+  display: none;
+  max-width: 690px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+  img {
+    @include for-phone-sm-only {
+      width: 340px;
+    }
+  }
+  .no-result-heading {
+    font-family: ManropeBold,sans-serif;
+    font-size: 25px;
+    padding-top: 60px;
+    width: 370px;
+    margin: 0 auto;
+    line-height: 30px;
+    @include for-phone-only {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+  .no-result-txt {
+    font-size: $font-md;
+    color: #ABABAB;
+    margin-top: 20px;
+    line-height: 24px;
+    @include for-phone-only {
+      font-size: 16px;
+      margin: 20px 15px 0 15px;
+    }
+  }
+}
+
+.main-content {
+
+}

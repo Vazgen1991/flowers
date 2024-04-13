@@ -340,7 +340,8 @@
 </header>
 
 <main>
-    <section>
+    <div class="main-content">
+        <section>
         <div class="page-main-content">
             <div class="breadcrumbs">
                 <a href="">главная</a> <span class="divider">/</span>
@@ -483,215 +484,224 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="review" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
-            <div class="container-custom">
-                <div class="review-form-content">
-                    <div class="review-form">
-                        <form action="#">
-                            <h2>ОТЗЫВЫ КЛИЕНТОВ</h2>
-                            <div class="feedback">
-                                <span>Пока нет отзывов</span>
-                                <span>Написать обзор</span>
-                            </div>
-                            <h4>оставить отзыв </h4>
-                            <div class="input-wrapper m-t-30">
-                                <label>Имя</label>
-                                <input type="text" placeholder="введите ваше имя" maxlength="30">
-                            </div>
-                            <div class="input-wrapper m-t-30">
-                                <label>Электронная почта</label>
-                                <input type="text" placeholder="Ваш электронной адрес будет  конфиденциальным" maxlength="30">
-                            </div>
+        <section>
+            <div class="review" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <div class="container-custom">
+                    <div class="review-form-content">
+                        <div class="review-form">
+                            <form action="#">
+                                <h2>ОТЗЫВЫ КЛИЕНТОВ</h2>
+                                <div class="feedback">
+                                    <span>Пока нет отзывов</span>
+                                    <span>Написать обзор</span>
+                                </div>
+                                <h4>оставить отзыв </h4>
+                                <div class="input-wrapper m-t-30">
+                                    <label>Имя</label>
+                                    <input type="text" placeholder="введите ваше имя" maxlength="30">
+                                </div>
+                                <div class="input-wrapper m-t-30">
+                                    <label>Электронная почта</label>
+                                    <input type="text" placeholder="Ваш электронной адрес будет  конфиденциальным" maxlength="30">
+                                </div>
 
-                            <div class="input-wrapper m-t-30">
-                                <label>Рейтинг</label>
-                                <div id="full-stars-example-two">
-                                    <div class="rating-group">
-                                        <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
-                                        <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
-                                        <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
-                                        <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
-                                        <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
-                                        <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
-                                        <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
-                                        <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
-                                        <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
-                                        <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
-                                        <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                <div class="input-wrapper m-t-30">
+                                    <label>Рейтинг</label>
+                                    <div id="full-stars-example-two">
+                                        <div class="rating-group">
+                                            <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                                            <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                            <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                                            <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                            <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                                            <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                            <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                                            <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                            <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                                            <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                            <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
 
 
-                            <div class="input-wrapper m-t-20">
-                                <label>Заголовок отзыва</label>
-                                <input type="text" placeholder="Дайте вашему отзыву название" maxlength="30">
-                            </div>
-                            <div class="input-wrapper m-t-30">
-                                <label>Основная часть обзора (1500)</label>
-                                <textarea placeholder="Пишите свои комментарии здесь" maxlength="1500" class="feedback-text">
+                                <div class="input-wrapper m-t-20">
+                                    <label>Заголовок отзыва</label>
+                                    <input type="text" placeholder="Дайте вашему отзыву название" maxlength="30">
+                                </div>
+                                <div class="input-wrapper m-t-30">
+                                    <label>Основная часть обзора (1500)</label>
+                                    <textarea placeholder="Пишите свои комментарии здесь" maxlength="1500" class="feedback-text">
 
                             </textarea>
 
-                            </div>
-                            <button type="submit" class="btn-custom filled primary button-xs order-submit comment-btn m-t-30 ">Добавить отзыв</button>
+                                </div>
+                                <button type="submit" class="btn-custom filled primary button-xs order-submit comment-btn m-t-30 ">Добавить отзыв</button>
 
 
-                        </form>
-                    </div>
-                    <div class="customer-review-block">
-                        <div class="review-block-header">
-                            <h2>Customer Reviews</h2>
-                            <span >No reviews yet</span>
-                        </div>
-                        <div class="cs-customer-form">
-                            <form>
-                                <h3>Write a review</h3>
-                                <div>Thank you for submitting a review! </div>
                             </form>
                         </div>
+                        <div class="customer-review-block">
+                            <div class="review-block-header">
+                                <h2>Customer Reviews</h2>
+                                <span >No reviews yet</span>
+                            </div>
+                            <div class="cs-customer-form">
+                                <form>
+                                    <h3>Write a review</h3>
+                                    <div>Thank you for submitting a review! </div>
+                                </form>
+                            </div>
 
-                    </div>
-
-                    <ul class="review-social">
-                        <li><a><img src="assets/images/order/faceb.svg" alt="svg"></a></li>
-                        <li><a><img src="assets/images/order/insta.svg" alt="svg"></a></li>
-                        <li><a><img src="assets/images/order/message-icon.svg" alt="svg"></a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="special order-special" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
-            <h3 class="m-b-60 text-center">ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ</h3>
-            <div class="container-custom">
-                <div class="row">
-                    <div class="col-6 col-lg-3">
-                        <div class="page-card-item">
-                            <figure>
-                                <a href="#">
-                                    <div class="img-wrapper">
-                                        <img src="assets/images/home/img-fl-1.png" alt="img" class="card-image">
-                                    </div>
-
-                                </a>
-                            </figure>
-
-                            <span>FLOWERSMORE</span>
-                            <h3 class="card-heading">Шоколадный ранункулюс</h3>
-                            <p class="card-price">От $20-$50</p>
                         </div>
+
+                        <ul class="review-social">
+                            <li><a><img src="assets/images/order/faceb.svg" alt="svg"></a></li>
+                            <li><a><img src="assets/images/order/insta.svg" alt="svg"></a></li>
+                            <li><a><img src="assets/images/order/message-icon.svg" alt="svg"></a></li>
+                        </ul>
                     </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="page-card-item">
-                            <figure>
-                                <a href="#">
-                                    <div class="img-wrapper">
-                                        <img src="assets/images/home/img-fl-2.png" alt="img" class="card-image">
-                                    </div>
 
-                                </a>
-                            </figure>
-
-
-                            <span>FLOWERSMORE</span>
-                            <h3 class="card-heading">РОЗЫ ВЕНДЕЛА</h3>
-                            <p class="card-price">От $10-$45</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="page-card-item">
-                            <figure>
-                                <a href="#">
-                                    <div class="img-wrapper">
-                                        <img src="assets/images/home/img-fl-3.png" alt="img" class="card-image">
-                                    </div>
-
-                                </a>
-                            </figure>
-
-
-                            <span>FLOWERSMORE</span>
-                            <h3 class="card-heading">ПОЛЯРНАЯ ЗВЕЗДА РОЗЫ</h3>
-                            <p class="card-price">От $50-$100</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="page-card-item">
-                            <figure>
-                                <a href="#">
-                                    <div class="img-wrapper">
-                                        <img src="assets/images/home/img-fl-4.png" alt="img" class="card-image">
-                                    </div>
-
-                                </a>
-                            </figure>
-
-                            <span>FLOWERSMORE</span>
-                            <h3 class="card-heading">Букет из 15 розовых роз Премиум</h3>
-                            <p class="card-price">От $33-$80</p>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="promotions" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
-            <div class="container-custom">
-                <div class="page-heading-title">
-                    <h2>БЛОГ</h2>
-                    <div class="line"></div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="promo">
-                            <div class="promo-title">
+        </section>
+        <section>
+            <div class="special order-special" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <h3 class="m-b-60 text-center">ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ</h3>
+                <div class="container-custom">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-1.png" alt="img" class="card-image">
+                                        </div>
 
-                                <p class="promo-text">Создание красивого букета — это искусство</p>
-                            </div>
-                            <div class="promo-img-block">
-                                <img src="assets/images/home/gift-categ-1.png" alt="img" class="promo-img">
-                                <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
-                            </div>
+                                    </a>
+                                </figure>
 
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">Шоколадный ранункулюс</h3>
+                                <p class="card-price">От $20-$50</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="promo">
-                            <div class="promo-title">
-                                <p class="promo-text"> Выбор гипсофилы для свадебного декора </p>
-                            </div>
-                            <div class="promo-img-block">
-                                <img src="assets/images/home/gift-categ-2.png" alt="img" class="promo-img">
-                                <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
-                            </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-2.png" alt="img" class="card-image">
+                                        </div>
 
+                                    </a>
+                                </figure>
+
+
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">РОЗЫ ВЕНДЕЛА</h3>
+                                <p class="card-price">От $10-$45</p>
+                            </div>
                         </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-3.png" alt="img" class="card-image">
+                                        </div>
 
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="promo">
-                            <div class="promo-title">
-                                <p class="promo-text"> День Благодарения — время выразить благодарность</p>
+                                    </a>
+                                </figure>
 
+
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">ПОЛЯРНАЯ ЗВЕЗДА РОЗЫ</h3>
+                                <p class="card-price">От $50-$100</p>
                             </div>
-                            <div class="promo-img-block">
-                                <img src="assets/images/home/gift-categ-3.png" alt="img" class="promo-img">
-                                <a href="" class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
-                            </div>
-
                         </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-4.png" alt="img" class="card-image">
+                                        </div>
 
+                                    </a>
+                                </figure>
+
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">Букет из 15 розовых роз Премиум</h3>
+                                <p class="card-price">От $33-$80</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section>
+            <div class="promotions" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <div class="container-custom">
+                    <div class="page-heading-title">
+                        <h2>БЛОГ</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="promo">
+                                <div class="promo-title">
+
+                                    <p class="promo-text">Создание красивого букета — это искусство</p>
+                                </div>
+                                <div class="promo-img-block">
+                                    <img src="assets/images/home/gift-categ-1.png" alt="img" class="promo-img">
+                                    <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="promo">
+                                <div class="promo-title">
+                                    <p class="promo-text"> Выбор гипсофилы для свадебного декора </p>
+                                </div>
+                                <div class="promo-img-block">
+                                    <img src="assets/images/home/gift-categ-2.png" alt="img" class="promo-img">
+                                    <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="promo">
+                                <div class="promo-title">
+                                    <p class="promo-text"> День Благодарения — время выразить благодарность</p>
+
+                                </div>
+                                <div class="promo-img-block">
+                                    <img src="assets/images/home/gift-categ-3.png" alt="img" class="promo-img">
+                                    <a href="" class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="no-result">
+        <img src="assets/images/home/no-result-img.png" alt="img">
+        <p class="no-result-heading">Извините, по вашему запросу ничего не найдено</p>
+        <p class="no-result-txt">Мы всегда рады помочь! Пожалуйста, свяжитесь с нами,и мы постараемся решить вашу проблему.</p>
+
+
+    </div>
 </main>
 
 <footer>
