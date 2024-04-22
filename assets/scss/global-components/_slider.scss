@@ -6,19 +6,25 @@
     .swiper-slide {
       max-width: 613px;
       width: 100%;
+
     }
 
     &.order-slider-thumb {
       justify-content: center;
+      padding-top: 20px;
+
       .thumb-swiper-slide {
         width: 92px !important;
         height: 92px;
+        border: 1px solid #D9D9D9;
+        border-radius: $border-primary;
         @include for-phone-only {
-          width: 75px !important;
-          height: 75px;
+          width: 70px !important;
+          height: 70px;
         }
         &.swiper-slide-thumb-active {
-          border: 1px solid black;
+          border: 1px solid $secondary-color;
+          border-radius: $border-primary;
         }
       }
     }

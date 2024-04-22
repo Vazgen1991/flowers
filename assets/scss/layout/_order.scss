@@ -8,11 +8,202 @@
       font-size: 23px;
     }
   }
-  span {
-    display: inline-block;
-    padding-top: 30px;
-    color: $text-secondary-color;
-    font-size: 10px;
+  .group-product-heading {
+    line-height: 40px;
+    margin-bottom: 20px;
+    @include for-tablet-landscape-up {
+      margin-top: 30px;
+    }
+    @include for-phone-only {
+      text-align: center!important;
+      font-size: 16px;
+      line-height: 25px;
+      text-transform: capitalize;
+    }
+  }
+  .group-product-card {
+    margin-top: 15px;
+    .add-cart-block {
+      display: flex;
+      margin-top: 20px;
+      .button-group-cart {
+        font-family: ManropeRegular, sans-serif;
+        width: 93px;
+        height: 55px;
+        border: 1px solid #D9D9D9;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        color: $text-secondary-color;
+        border-radius: $border-primary;
+
+
+        button {
+          width: 45px;
+          height: 55px;
+          border: none;
+          outline: none;
+          background: transparent;
+          font-size: 22px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        @include for-phone-only {
+          width: 66px;
+
+        }
+      }
+      .group-product-add-btn {
+        font-family: ManropeRegular, sans-serif;
+        text-transform: initial;
+        font-size: $font-sm;
+        max-width: 180px;
+        height: 55px;
+        margin: 0 30px;
+        @include for-phone-only {
+          margin: 0 10px;
+
+        }
+      }
+      .group-product-like {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 55px;
+        border: 1px solid #D9D9D9;
+        border-radius: $border-primary;
+        &.active {
+          background: $secondary-color;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .total {
+      font-family: ManropeBold,sans-serif;
+      letter-spacing: 2px;
+      color: $secondary-color;
+      font-size: 25px;
+      text-align: left;
+      @include for-phone-only {
+        font-size: 20px;
+
+      }
+    }
+    .position-size {
+      padding-top: 20px;
+      .position-size-heading {
+        font-family: ManropeBold,sans-serif;
+        font-size: $font-sm;
+        color: $text-secondary-color;
+        text-align: left;
+        margin-bottom: 15px;
+      }
+      li {
+        font-family: ManropeMedium,sans-serif;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        border-bottom: 1px dashed #D9D9D9;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        font-size: $font-sm;
+        color: $text-secondary-color;
+        p {
+          padding-left: 20px;
+        }
+        img {
+          position: absolute;
+        }
+        span {
+          font-family: ManropeRegular, sans-serif;
+        }
+      }
+    }
+
+  }
+  .group-card-content {
+    position: relative;
+    margin-top: 20px;
+
+    .group-card-item {
+      display: flex;
+      margin-bottom: 30px;
+
+      .group-card-img {
+        width: 90px;
+        height: 90px;
+        border: 1px solid #D9D9D9;
+        border-radius: $border-primary;
+        margin-right: 30px;
+        img {
+          border-radius: $border-primary;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .group-cart-count {
+        text-align: left;
+        font-size: $font-sm;
+        color: #707070;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .group-card-social {
+      position: absolute;
+      display: flex;
+      right: 0;
+      top: 50%;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 55px;
+        border-radius: $border-primary;
+        margin-right: 30px;
+        &.facebook {
+          border: 1px solid #4267B2;
+        }
+        &.instagram {
+          border: 1px solid #DE3E6D;
+        }
+        &.pinterest {
+          border: 1px solid #CA2127;
+        }
+        &:hover {
+          cursor: pointer;
+          opacity: .7;
+        }
+      }
+      @include for-tablet-portrait-up {
+        position: relative;
+        justify-content: center;
+        margin-top: 40px;
+      }
+    }
+  }
+  .product-code-title {
+    font-family: ManropeRegular, sans-serif;
+    font-size: $font-sm;
+    color: #ABABAB;
+    letter-spacing: 2px;
+    @include for-phone-only {
+      font-size: 14px;
+
+    }
+
+  }
+  .product-code {
+    font-family: ManropeBold,sans-serif;
+    font-size: $font-sm;
+    color: #ABABAB;
   }
   .order-item-info {
     text-align: left;
@@ -81,8 +272,219 @@
   }
 
 }
+.group-card-heading {
+  font-family: ManropeBold,sans-serif;
+  font-size: $font-sm;
+  color: $text-secondary-color;
+  text-align: left;
+  margin-bottom: 15px;
+  a {
+    font-family: ManropeRegular, sans-serif;
+    position: relative;
+    font-size: $font-sm;
+    color: #1967D2;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background: #1967D2;
+      bottom: -4px;
+    }
+  }
+  span {
+    font-family: ManropeRegular, sans-serif;
+    color: #707070;
+  }
+  @include for-phone-only {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 .review {
   padding-top: 60px;
+  .group-review-links {
+    display: flex;
+    justify-content: center;
+    a {
+      max-width: 214px;
+      width: 100%;
+      height: 55px;
+      background: #EDEDED;
+      margin-right: 30px;
+      border-radius: 5px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        cursor: pointer;
+        opacity: .7;
+      }
+      &.active {
+        background: $secondary-color;
+        color: white;
+      }
+      @include for-tablet-portrait-up {
+        font-size: 14px;
+      }
+      @include for-phone-only {
+        margin-bottom: 20px;
+        max-width: unset;
+      }
+
+
+    }
+    margin-bottom: 30px;
+    @include for-phone-only {
+      flex-direction: column;
+    }
+  }
+  .group-review-content {
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    padding: 40px 30px;
+    @include for-tablet-portrait-up {
+      padding: 20px;
+    }
+    .review-content {
+      h2 {
+        font-size: 20px;
+        text-align: left;
+        color: #5E5E5E;
+        margin-bottom: 20px;
+        @include for-tablet-landscape-up {
+          margin-top: 50px;
+          text-align: center;
+        }
+      }
+      .group-review-item {
+        display: flex;
+
+        .group-review-item-img {
+          max-width: 62px;
+          width: 100%;
+          height: 62px;
+          border-radius: 100%;
+          margin-right: 20px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+          @include for-phone-only {
+            max-width: 50px;
+            height: 50px;
+            margin-right: 10px;
+          }
+          @include for-phone-sm-only {
+            margin-bottom: 20px;
+            margin-right: 0;
+          }
+        }
+        .group-review-item-info {
+          border: 1px solid #D9D9D9;
+          border-radius: $border-primary;
+          padding: 20px;
+          position: relative;
+          .group-review-item-info-txt {
+            font-size: $font-sm;
+            line-height: 24px;
+            letter-spacing: 2px;
+            @include for-tablet-portrait-up {
+              font-size: 14px;
+              letter-spacing: 1px;
+            }
+            @include for-phone-only {
+              letter-spacing: 0;
+            }
+          }
+          #full-stars-example-two {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            label {
+              font-size: 15px;
+              i {
+                color: #ED81B3;
+              }
+            }
+            @include for-phone-only {
+              top: 15px;
+            }
+          }
+          @include for-phone-only {
+            padding: 15px;
+          }
+
+        }
+
+        margin-bottom: 30px;
+        @include for-phone-sm-only {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+
+    }
+    .description-content {
+      display: none;
+      ul {
+        margin-top: 15px;
+        padding-left: 15px;
+        li {
+          letter-spacing: 1px;
+          margin-bottom: 20px;
+          list-style-type: disc;
+          @include for-tablet-portrait-up {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        a {
+          color: #1967D2;
+        }
+        &.specific-letter {
+          letter-spacing: 1px;
+        }
+        @include for-tablet-portrait-up {
+          font-size: 14px;
+        }
+      }
+    }
+    .delivery-content {
+      display: none;
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        @include for-tablet-portrait-up {
+          font-size: 14px;
+        }
+      }
+      ul {
+        margin: 25px 0;
+        li {
+          font-size: 16px;
+          line-height: 25px;
+          letter-spacing: 0.5px;
+          @include for-tablet-portrait-up {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    @include for-phone-only {
+      padding: 10px;
+    }
+
+  }
   .review-form-content {
     max-width: 665px;
     width: 100%;
@@ -96,11 +498,18 @@
       border-radius: 3px;
       padding: 29px;
       margin-right: 30px;
+      &.group-review-form {
+        border: none;
+        padding: 0;
+      }
 
       h2 {
         font-size: 20px;
         text-align: left;
         color: $text-secondary-color;
+        @include for-tablet-landscape-up {
+          text-align: center;
+        }
         @include for-phone-sm-only {
           text-align: center;
           margin-bottom: 40px;
@@ -130,6 +539,9 @@
           margin-bottom: 10px;
           font-size: $font-secondary;
           color: $text-primary-color;
+          &.group-item-label {
+            font-size: 14px;
+          }
         }
         input {
           width: 100%;
@@ -275,4 +687,5 @@
   .rating__input:hover ~ .rating__label .rating__icon--star {
     color: #ddd;
   }
+
 }

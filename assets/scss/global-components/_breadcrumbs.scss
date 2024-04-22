@@ -1,9 +1,19 @@
 .breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding-bottom: 35px;
+  height: 100px;
+  margin-bottom: 35px;
+  background-image: url("/assets/images/home/breadcrumbs-background.png");
   a {
     color: $text-secondary-color;
     font-size: 13px;
     text-transform: capitalize;
+  }
+  span {
+    display: inline-block;
+    color: $text-secondary-color;
+    padding: 0 2px;
   }
 }

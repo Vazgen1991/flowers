@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-v4-grid-only@1.0.0/dist/bootstrap-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header">
+        <div class="header-top-bg">
+            <p>Войдите, чтобы получить индивидуальные цены</p>
+        </div>
+        <div class="container-custom">
+            <div class="logo mobile-logo">
+                <h1>
+                    <a href="#" class="logo-img">
+                        <img src="assets/images/home/logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <div class="header-top">
+
+                <a class="search">
+                    <div class="header-search">
+
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <div class="logo">
+                    <h1>
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/home/logo.png" alt="logo">
+                        </a>
+                    </h1>
+                </div>
+                <div class="header-tools">
+                    <li class="switcher-lang">
+                        <a href="" class="lang">RU <i class="icon-down-2"></i></a>
+                        <ul class="lang-list">
+                            <li class="lang-item"><a href="#">Russian</a></li>
+                            <li class="lang-item"><a href="#">Armenian</a></li>
+                        </ul>
+                    </li>
+                    <a href="#"><span class="icon-user m-r-20"></span></a>
+                    <a href="#" class="notification">
+                        <span class="icon-cart"></span>
+                        <div class="notification-cart">
+                            <div class="notification-cart-heading">
+                                <h6>корзина покупок </h6>
+                                <a href="#" class="close-cart"><img src="assets/images/home/close-icon.svg" alt="img"></a>
+                            </div>
+                            <div class="notification-cart-item">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-4.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+                                        <span class="cart-heading-price">20 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="notification-cart-item">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-3.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>24 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+                                        <span class="cart-heading-price">20 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="notification-cart-item item-border-none">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-2.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>Торт `Pop It`</h6>
+                                        <span class="cart-heading-price">15 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cart-footer">
+                                <h6 class="cart-footer-heading">корзина покупок </h6>
+                                <span class="cart-result-price">60 000 др.</span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="header-top-mobile">
+                <ul>
+                    <li>
+                        <a class="menu-burger">
+                            <span><img src="assets/images/home/menu.svg" alt="img" style="width: 20px; height: 20px"></span>
+                            <span class="m-t-10">Menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="search-mb">
+                            <span class="icon-search"></span>
+                            <span class="m-t-10">Search</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-user"></span>
+                            <span class="m-t-10">Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-cart"></span>
+                            <span class="m-t-10">Cart</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item category">
+                        <a href="#" class="nav-link flex">
+                            РОЗЫ
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+
+                        <ul class="nav-submenu-list">
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БУКЕТЫ РОЗ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">О НАС</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БЛОГ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">РУКОВОДСТВА ПО УХОДУ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">СВЯЗАТЬСЯ С НАМИ</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="header-search-block ">
+                <form action="#" class="form-search">
+                    <div class="form-search-block">
+                        <input type="text" class="form-input" placeholder="Search for something">
+                        <button class="search-button-close button" type="button">
+                            <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <div class="search-result">
+                    <div class="container-custom">
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="mobile-nav">
+            <button class="nav-close-icon">
+                <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <a href="" class="mobile-nav-link">РОЗЫ</a>
+                        <button class="btn btn-link mobile-nav-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <a href="" class="mobile-nav-link">БУКЕТЫ РОЗ</a>
+
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <a href="" class="mobile-nav-link">О НАС</a>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThre">
+                        <a href="" class="mobile-nav-link"> БЛОГ</a>
+
+                    </div>
+                    <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headings">
+                        <a href="" class="mobile-nav-link"> СВЯЗАТЬСЯ С НАМИ</a>
+
+                    </div>
+                    <div id="collapseheadings" class="collapse" aria-labelledby="headings" data-parent="#accordion">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-search-mobile-block">
+
+            <form action="#" class="mb-form-search">
+                <div class="mb-form-search-block">
+                    <input type="text" class="mb-form-input" placeholder="Search for something">
+                    <button class="mb-search-button-close button" type="button">
+
+                        <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="search-result">
+                <div class="container-custom">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+    <div class="main-content">
+        <section>
+            <div class="page-main-content">
+                <div class="breadcrumbs">
+                    <a href="">главная</a> <span class="divider">/</span>
+                    <a href="">роза</a> <span class="divider">/</span>
+                    <a href="">штучные</a> <span class="divider">/</span>
+                    <a href="">полярная звезда роза</a>
+                </div>
+                <div class="container-custom">
+                    <div class="row m-t-80 special-margin">
+                        <div class="col-lg-5">
+                            <div class="swiper orderSwiper">
+                                <div class="swiper-wrapper order-slider">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/order/order-img-1.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/order/order-img-2.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/order/order-img-4.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/order/order-img-3.png" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div thumbsSlider="" class="swiper mySwiper orderSwiper">
+                                <div class="swiper-wrapper order-slider-thumb ">
+                                    <div class="swiper-slide thumb-swiper-slide">
+                                        <img src="assets/images/order/order-img-1.png" />
+                                    </div>
+                                    <div class="swiper-slide thumb-swiper-slide">
+                                        <img src="assets/images/order/order-img-2.png" />
+                                    </div>
+                                    <div class="swiper-slide thumb-swiper-slide">
+                                        <img src="assets/images/order/order-img-4.png" />
+                                    </div>
+                                    <div class="swiper-slide thumb-swiper-slide">
+                                        <img src="assets/images/order/order-img-3.png" />
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <h2 class="text-left group-product-heading">
+                                Шоколадные конфеты «Восхитительные розы» с безалкогольным вином
+                            </h2>
+                            <div class="flex">
+                                <span class="product-code-title">Код продукта:</span>
+                                <span class="product-code"> N:077723</span>
+                            </div>
+                            <div class="group-product-card">
+                                <p class="total">$50,99</p>
+                                <div class="add-cart-block">
+                                    <div class="button-group-cart">
+                                        <button>-</button>
+                                        <span>1</span>
+                                        <button>+</button>
+                                    </div>
+                                    <button class="btn-custom filled primary order-submit  group-product-add-btn">Добавить в корзину</button>
+                                    <span class="group-product-like">
+                                        <img src="assets/images/order/like-2.png" alt="img">
+                                    </span>
+                                </div>
+                                <ul class="position-size">
+                                    <p class="position-size-heading">Размеры композиции:</p>
+                                    <li><img src="assets/images/order/vect.svg" alt="img"><p>Высота:</p> <span>28 см</span></li>
+                                    <li><img src="assets/images/order/vect.svg" alt="img"><p>Ширина:</p> <span>32 см</span></li>
+                                </ul>
+                            </div>
+                            <div class="group-card-content">
+                                <p class="group-card-heading">Описание продукта:</p>
+                                <div class="group-card-item">
+                                    <div class="group-card-img">
+                                        <img src="/assets/images/cart/cart-1.png" alt="img">
+                                    </div>
+                                    <div>
+                                        <p class="group-cart-count">30 красных роз</p>
+                                        <p class="group-card-heading m-t-15">
+                                            Магазин:
+                                            <a href="#" class="m-l-5">ROSERY</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="group-card-item">
+                                    <div class="group-card-img">
+                                        <img src="/assets/images/home/cat-3.png" alt="img">
+                                    </div>
+                                    <div>
+                                        <p class="group-cart-count">16 Ферреро Роше Джейкобс</p>
+                                        <p class="group-card-heading m-t-15">
+                                            Магазин:
+                                            <a href="#" class="m-l-5">Рошен</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="group-card-item">
+                                    <div class="group-card-img">
+                                        <img src="/assets/images/home/cat-2.png" alt="img">
+                                    </div>
+                                    <div>
+                                        <p class="group-cart-count">Бутылка Creek unvined в коробке</p>
+                                        <p class="group-card-heading m-t-15">
+                                            Магазин:
+                                            <a href="#" class="m-l-5">Джейкобс Крик</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <p class="group-card-heading">
+                                    Описание продукта:
+                                    <span>Розы, Композиция "Восхитительные розы"</span>
+                                </p>
+                                <ul class="group-card-social">
+                                    <li class="facebook"><img src="assets/images/order/facebook.svg" alt="img"></li>
+                                    <li class="instagram"><img src="assets/images/order/instagram.svg" alt="img"></li>
+                                    <li class="pinterest"><img src="assets/images/order/pinterest.svg" alt="img"></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="review" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <div class="container-custom">
+                    <div class="group-review-links">
+                        <a>Описание</a>
+                        <a class="active">Отзывы</a>
+                        <a>Политика доставки</a>
+                    </div>
+                    <div class="group-review-content">
+                        <div class="review-content">
+                            <div class="row">
+                                <div class="col-lg-7 order-2 order-lg-1">
+                                    <h2>ОТЗЫВЫ КЛИЕНТОВ</h2>
+                                    <div class="group-review-item">
+                                        <div class="group-review-item-img">
+                                            <img src="assets/images/order/empty-img.png" alt="img">
+                                        </div>
+                                        <div class="group-review-item-info">
+                                            <p class="group-card-heading">Игорь - <span>29 апрелия 2024 г</span> </p>
+                                            <p class="group-review-item-info-txt">
+                                                Заказал букет роз в ROSERY для своей жены на день рождения.
+                                                Цветы были свежие, красивые и ароматные. Букет был оформлен с любовью и вкусом.
+                                                Доставка была быстрой и пунктуальной. Жена была в восторге!
+                                            </p>
+                                            <div id="full-stars-example-two">
+                                                <div class="rating-group">
+                                                    <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                                                    <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                                                    <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                                                    <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                                                    <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                                                    <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-review-item">
+                                        <div class="group-review-item-img">
+                                            <img src="assets/images/order/empty-img.png" alt="img">
+                                        </div>
+                                        <div class="group-review-item-info">
+                                            <p class="group-card-heading">Лена - <span>2 февраля 2024 г.</span> </p>
+                                            <p class="group-review-item-info-txt">
+                                                Благодарим за отзыв!
+                                                Нам очень приятно, что вы остались довольны нашим букетом.
+                                                Мы всегда стараемся предоставить нашим клиентам только лучшие цветы и сервис.
+                                            </p>
+                                            <div id="full-stars-example-two">
+                                                <div class="rating-group">
+                                                    <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                                                    <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                                                    <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                                                    <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                                                    <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                                                    <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-review-item">
+                                        <div class="group-review-item-img">
+                                            <img src="assets/images/order/empty-img.png" alt="img">
+                                        </div>
+                                        <div class="group-review-item-info">
+                                            <p class="group-card-heading">Лена - <span>2 февраля 2024 г.</span> </p>
+                                            <p class="group-review-item-info-txt">
+                                                Благодарим за отзыв!
+                                                Нам очень приятно, что вы остались довольны нашим букетом.
+                                                Мы всегда стараемся предоставить нашим клиентам только лучшие цветы и сервис.
+                                            </p>
+                                            <div id="full-stars-example-two">
+                                                <div class="rating-group">
+                                                    <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                                                    <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                                                    <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                                                    <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                                                    <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                                                    <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-review-item">
+                                        <div class="group-review-item-img">
+                                            <img src="assets/images/order/empty-img.png" alt="img">
+                                        </div>
+                                        <div class="group-review-item-info">
+                                            <p class="group-card-heading">Лена - <span>2 февраля 2024 г.</span> </p>
+                                            <p class="group-review-item-info-txt">
+                                                Благодарим за отзыв!
+                                                Нам очень приятно, что вы остались довольны нашим букетом.
+                                                Мы всегда стараемся предоставить нашим клиентам только лучшие цветы и сервис.
+                                            </p>
+                                            <div id="full-stars-example-two">
+                                                <div class="rating-group">
+                                                    <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                                                    <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                                                    <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                                                    <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                                                    <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                                                    <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                    <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 order-1 order-lg-2">
+                                    <div class="review-form-content">
+                                        <div class="review-form group-review-form">
+                                            <form action="#">
+                                                <h2>оставить отзыв </h2>
+                                                <div class="input-wrapper m-t-30">
+                                                    <label class="group-item-label">Имя</label>
+                                                    <input type="text" placeholder="введите ваше имя" maxlength="30">
+                                                </div>
+                                                <div class="input-wrapper m-t-30">
+                                                    <label class="group-item-label">Электронная почта</label>
+                                                    <input type="text" placeholder="Ваш электронной адрес будет  конфиденциальным" maxlength="30">
+                                                </div>
+
+                                                <div class="input-wrapper m-t-30">
+                                                    <label>Рейтинг</label>
+                                                    <div id="full-stars-example-two">
+                                                        <div class="rating-group">
+                                                            <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                                                            <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                            <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                                                            <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                            <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                                                            <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                            <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                                                            <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                            <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                                                            <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                            <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="input-wrapper m-t-20">
+                                                    <label class="group-item-label">Заголовок отзыва</label>
+                                                    <input type="text" placeholder="Дайте вашему отзыву название" maxlength="30">
+                                                </div>
+                                                <div class="input-wrapper m-t-30">
+                                                    <label class="group-item-label">Основная часть обзора (1500)</label>
+                                                    <textarea placeholder="Пишите свои комментарии здесь" maxlength="1500" class="feedback-text"></textarea>
+
+                                                </div>
+                                                <button type="submit" class="btn-custom filled primary button-xs order-submit comment-btn m-t-30 ">Добавить отзыв</button>
+
+
+                                            </form>
+                                        </div>
+                                        <div class="customer-review-block">
+                                            <div class="review-block-header">
+                                                <h2>Customer Reviews</h2>
+                                                <span >No reviews yet</span>
+                                            </div>
+                                            <div class="cs-customer-form">
+                                                <form>
+                                                    <h3>Write a review</h3>
+                                                    <div>Thank you for submitting a review! </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+
+                                        <!--                                    <ul class="review-social">-->
+                                        <!--                                        <li><a><img src="assets/images/order/faceb.svg" alt="svg"></a></li>-->
+                                        <!--                                        <li><a><img src="assets/images/order/insta.svg" alt="svg"></a></li>-->
+                                        <!--                                        <li><a><img src="assets/images/order/message-icon.svg" alt="svg"></a></li>-->
+                                        <!--                                    </ul>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-content">
+                            <p>
+                                Розы премиум-класса Bloomingmore, выращенные на ферме оптом, доступны в широком
+                                разнообразии потрясающих оттенков, которые придадут изысканность и класс любому случаю.
+                                Эти розы сохраняются в два раза дольше, чем рыночные цветы! Мы всегда предлагаем
+                                самые свежие розы, выращенные экологически чистым способом, которые срезаются
+                                и отправляются прямо вам.
+                            </p>
+                            <ul>
+                                <li>Длина штока: 16 дюймов/40 см, 20 дюймов/50 см, 24 дюйма/60 см</li>
+                                <li>Размер цветка: примерно 2 дюйма / 5 см.</li>
+                                <li>Сезон: доступен круглый год</li>
+                                <li>Выращено в Эквадоре</li>
+                                <li>Рекомендуемая дата доставки: за 2–3 дня до мероприятия.</li>
+                                <li>Средний срок службы вазы: при правильном уходе и обращении примерно 7 дней</li>
+                            </ul>
+                            <p class="specific-letter">
+                                <a>Нажмите здесь,</a> чтобы просмотреть руководство по уходу и обращению с розами.
+                            </p>
+                            <p class="m-t-15 specific-letter">
+                                Пожалуйста, ознакомьтесь с нашими правилами доставки и отмены заказа.
+                            </p>
+
+
+
+
+
+
+
+
+
+                        </div>
+                        <div class="delivery-content">
+                            <p>
+                                Правила доставки нашего магазина
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum nibh
+                                euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Если мы хотим,
+                                чтобы это было минимальное время, то, что мы делаем, чтобы добиться успеха,
+                                это не значит, что это aliquip ex ea commodo consequat.
+                                Duis autem vel eum iriure dolor in hendrerit in vulputate
+                            </p>
+                            <ul>
+                                <li>1-2 рабочих дня (обычно к концу дня)</li>
+                                <li>30-дневная гарантия возврата денег</li>
+                                <li>Круглосуточная живая поддержка</li>
+                                <li>Odio dignissim qui blandit praesent</li>
+                                <li>luptatum zzril деленит в augue duis dolore</li>
+                                <li>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim Placerat facer possim assum. Typi non habent </li>
+                                <li>claritatem insitam; est usus legentis in iis qui facit eorum</li>
+                            </ul>
+                            <p>
+
+                                Claritatem. Исследования продемонстрировали лекторов, которые легере мне lius quod
+                                ii legunt saepius. Claritas est etiam Processus Dynamicus, qui sequiturmutationem
+                                consuetudium lectorum. Mirum est notare quam Littera Gothica, Quam Nunc Putamus
+                                Parum Claram, anteposuerit Litterarum Formas Humanitatis Per
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="special order-special" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <h3 class="m-b-60 text-center">ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ</h3>
+                <div class="container-custom">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-1.png" alt="img" class="card-image">
+                                        </div>
+
+                                    </a>
+                                </figure>
+
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">Шоколадный ранункулюс</h3>
+                                <p class="card-price">От $20-$50</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-2.png" alt="img" class="card-image">
+                                        </div>
+
+                                    </a>
+                                </figure>
+
+
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">РОЗЫ ВЕНДЕЛА</h3>
+                                <p class="card-price">От $10-$45</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-3.png" alt="img" class="card-image">
+                                        </div>
+
+                                    </a>
+                                </figure>
+
+
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">ПОЛЯРНАЯ ЗВЕЗДА РОЗЫ</h3>
+                                <p class="card-price">От $50-$100</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="page-card-item">
+                                <figure>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="assets/images/home/img-fl-4.png" alt="img" class="card-image">
+                                        </div>
+
+                                    </a>
+                                </figure>
+
+                                <span>FLOWERSMORE</span>
+                                <h3 class="card-heading">Букет из 15 розовых роз Премиум</h3>
+                                <p class="card-price">От $33-$80</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="promotions" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <div class="container-custom">
+                    <div class="page-heading-title">
+                        <h2>БЛОГ</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="promo">
+                                <div class="promo-title">
+
+                                    <p class="promo-text">Создание красивого букета — это искусство</p>
+                                </div>
+                                <div class="promo-img-block">
+                                    <img src="assets/images/home/gift-categ-1.png" alt="img" class="promo-img">
+                                    <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="promo">
+                                <div class="promo-title">
+                                    <p class="promo-text"> Выбор гипсофилы для свадебного декора </p>
+                                </div>
+                                <div class="promo-img-block">
+                                    <img src="assets/images/home/gift-categ-2.png" alt="img" class="promo-img">
+                                    <a class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="promo">
+                                <div class="promo-title">
+                                    <p class="promo-text"> День Благодарения — время выразить благодарность</p>
+
+                                </div>
+                                <div class="promo-img-block">
+                                    <img src="assets/images/home/gift-categ-3.png" alt="img" class="promo-img">
+                                    <a href="" class="btn-custom outline order-btn button-lg ">Купить сейчас</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="no-result">
+        <img src="assets/images/home/no-result-img.png" alt="img">
+        <p class="no-result-heading">Извините, по вашему запросу ничего не найдено</p>
+        <p class="no-result-txt">Мы всегда рады помочь! Пожалуйста, свяжитесь с нами,и мы постараемся решить вашу проблему.</p>
+
+
+    </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="container-custom">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">О нас</p>
+                        <ul>
+                            <li><a href="#">Всё о наших цветах</a></li>
+                            <li><a href="#">Наш Блог</a></li>
+                            <li><a href="#">Связаться с нами</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">Розы</p>
+                        <ul>
+                            <li><a href="#">Букеты роз</a></li>
+                            <li><a href="#">Премиум</a></li>
+                            <li><a href="#">Эксклюзивные</a></li>
+                            <li><a href="#">Штучные</a></li>
+                            <li><a href="#">Мелкий опт</a></li>
+                            <li><a href="#">Лепестки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social">
+                        <p class="footer-heading">НОВОСТНАЯ РАССЫЛКА</p>
+                        <form action="#" class="footer-form">
+                            <div class="footer-input-block">
+                                <input type="text" placeholder="ваш@gmail.com" class="footer-input">
+                            </div>
+
+                        </form>
+                        <ul class="footer-social-list">
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-facebook"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-pinterest"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                        <ul class="payment-list">
+                            <li class="payment-item"><img src="assets/images/home/visa.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/master-card.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/meta.png" alt="img"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="flex align-center">Developed by <a href="" class="m-l-5 m-r-5"><img src="assets/images/home/lamp-logo.png" alt="logo"></a>&copy 2023</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".orderSwiper", {
+        spaceBetween: 20,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: swiper,
+        },
+        breakpoints: {
+            320: {
+                spaceBetween: 10,
+            },
+            480: {
+                spaceBetween: 20,
+            },
+
+
+        }
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
