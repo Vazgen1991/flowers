@@ -11,7 +11,7 @@
   border-radius: 3px !important;
   @include transition(all .3s);
   &.filled {
-    border-radius: 2px;
+    border-radius: 3px;
 
     &.primary {
       background: $secondary-color;

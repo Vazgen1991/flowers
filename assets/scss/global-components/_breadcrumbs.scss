@@ -16,4 +16,9 @@
     color: $text-secondary-color;
     padding: 0 2px;
   }
+  &.address-breadcrumbs {
+    background-image: unset;
+    height: 70px;
+    margin-bottom: 0;
+  }
 }

@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-v4-grid-only@1.0.0/dist/bootstrap-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <div class="header-top-bg">
+            <p>Войдите, чтобы получить индивидуальные цены</p>
+        </div>
+        <div class="container-custom">
+            <div class="logo mobile-logo">
+                <h1>
+                    <a href="#" class="logo-img">
+                        <img src="assets/images/home/logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <div class="header-top">
+
+                <a class="search">
+                    <div class="header-search">
+
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <div class="logo">
+                    <h1>
+                        <a href="#" class="logo-img">
+                            <img src="assets/images/home/logo.png" alt="logo">
+                        </a>
+                    </h1>
+                </div>
+                <div class="header-tools">
+                    <li class="switcher-lang">
+                        <a href="" class="lang">RU <i class="icon-down-2"></i></a>
+                        <ul class="lang-list">
+                            <li class="lang-item"><a href="#">Russian</a></li>
+                            <li class="lang-item"><a href="#">Armenian</a></li>
+                        </ul>
+                    </li>
+                    <a href="#"><span class="icon-user m-r-20"></span></a>
+                    <a href="#" class="notification">
+                        <span class="icon-cart"></span>
+                        <div class="notification-cart">
+                            <div class="notification-cart-heading">
+                                <h6>корзина покупок </h6>
+                                <a href="#" class="close-cart"><img src="assets/images/home/close-icon.svg" alt="img"></a>
+                            </div>
+                            <div class="notification-cart-item">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-4.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+                                        <span class="cart-heading-price">20 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="notification-cart-item">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-3.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>24 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</h6>
+                                        <span class="cart-heading-price">20 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="notification-cart-item item-border-none">
+                                <div class="notification-cart-img">
+                                    <img src="assets/images/home/top-2.png" alt="img">
+                                </div>
+                                <ul class="notification-cart-list">
+                                    <li>
+                                        <h6>Торт `Pop It`</h6>
+                                        <span class="cart-heading-price">15 000 др.</span>
+                                    </li>
+                                    <li>
+                                        <span>Размер</span>
+                                        <span>20 см</span>
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span>
+                                        <span>Ровые</span>
+                                    </li>
+                                    <li>
+                                        <span>Количество</span>
+                                        <div class="flex align-center">
+                                            <a href="" class="flex m-r-10"><img src="assets/images/home/cart-plus.svg" alt="img"></a>
+                                            <span>24</span>
+                                            <a href="" class="flex m-l-10"><img src="assets/images/home/cart-minus.svg" alt="img"></a>
+                                        </div>
+                                        <a href="#">Удалять</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cart-footer">
+                                <h6 class="cart-footer-heading">корзина покупок </h6>
+                                <span class="cart-result-price">60 000 др.</span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="header-top-mobile">
+                <ul>
+                    <li>
+                        <a class="menu-burger">
+                            <span><img src="assets/images/home/menu.svg" alt="img" style="width: 20px; height: 20px"></span>
+                            <span class="m-t-10">Menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="search-mb">
+                            <span class="icon-search"></span>
+                            <span class="m-t-10">Search</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-user"></span>
+                            <span class="m-t-10">Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-cart"></span>
+                            <span class="m-t-10">Cart</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item category">
+                        <a href="#" class="nav-link flex">
+                            РОЗЫ
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+
+                        <ul class="nav-submenu-list">
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                            <li class="nav-submenu-item">
+                                <a href="#" class="nav-submenu-link">rose-1111</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БУКЕТЫ РОЗ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">О НАС</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">БЛОГ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">РУКОВОДСТВА ПО УХОДУ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">СВЯЗАТЬСЯ С НАМИ</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="header-search-block ">
+                <form action="#" class="form-search">
+                    <div class="form-search-block">
+                        <input type="text" class="form-input" placeholder="Search for something">
+                        <button class="search-button-close button" type="button">
+                            <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <div class="search-result">
+                    <div class="container-custom">
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="mobile-nav">
+            <button class="nav-close-icon">
+                <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <a href="" class="mobile-nav-link">РОЗЫ</a>
+                        <button class="btn btn-link mobile-nav-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                            <svg class="svg-icon icon-chevron-down p-l-5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" fill="transparent" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="mobile-nav-sublink">РОЗЫ</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <a href="" class="mobile-nav-link">БУКЕТЫ РОЗ</a>
+
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <a href="" class="mobile-nav-link">О НАС</a>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThre">
+                        <a href="" class="mobile-nav-link"> БЛОГ</a>
+
+                    </div>
+                    <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headings">
+                        <a href="" class="mobile-nav-link"> СВЯЗАТЬСЯ С НАМИ</a>
+
+                    </div>
+                    <div id="collapseheadings" class="collapse" aria-labelledby="headings" data-parent="#accordion">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-search-mobile-block">
+
+            <form action="#" class="mb-form-search">
+                <div class="mb-form-search-block">
+                    <input type="text" class="mb-form-input" placeholder="Search for something">
+                    <button class="mb-search-button-close button" type="button">
+
+                        <svg class="svg-icon icon-close " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M15 5L10 10L5 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5 5L10 10L15 15" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="search-result">
+                <div class="container-custom">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+    <div class="main-content">
+        <section class="address-wrapper">
+            <div class="container-custom">
+                <div class="address-content">
+                    <div class="breadcrumbs address-breadcrumbs">
+                        <a href="">главная</a> <span class="divider">/</span>
+                        <a href="">Аккаунт </a> <span class="divider">/</span>
+                        <a href="">вход</a>
+                    </div>
+                    <h3 class="text-center">аккаунт</h3>
+                    <div class="address-btn-category">
+                        <button class="active">Профиль</button>
+                        <button>Адрес</button>
+                        <button>Избранное</button>
+                        <button>заказы</button>
+                    </div>
+
+                </div>
+
+
+                <div class="account-info">
+                    <ul class="account-info-list">
+                        <li class="account-info-item">
+                            <img src="assets/images/home/address-icon.svg" alt="img">
+                            <span>имя</span>
+                            <p>Ani</p>
+                        </li>
+                        <li class="account-info-item">
+                            <img src="assets/images/home/address-icon.svg" alt="img">
+                            <span>фамилия</span>
+                            <p>Sargsyan</p>
+                        </li>
+                        <li class="account-info-item">
+                            <img src="assets/images/home/address-icon.svg" alt="img">
+                            <span>пол</span>
+                            <p>женски</p>
+                        </li>
+                        <li class="account-info-item">
+                            <img src="assets/images/home/address-icon.svg" alt="img">
+                            <span>Дата рождения</span>
+                            <p>13.04.1990</p>
+                        </li>
+                        <li class="account-info-item">
+                            <img src="assets/images/home/address-icon.svg" alt="img">
+                            <span>Email</span>
+                            <p>design.anisargsyan@gmail.com</p>
+                        </li>
+                    </ul>
+                    <div class="address-links">
+                        <a class="edit-link">Редактировать</a>
+                        <span class="address-line"></span>
+                        <a class="delete-link">Удалить</a>
+                    </div>
+
+                </div>
+                <div class="address-wrapper-content">
+                    <div class="container-custom">
+                        <button class="btn-custom filled primary button-lg">Добавить адрес</button>
+
+                        <div class="row">
+                            <div class="col-sm-6 col-xl-3">
+                                <div class="address-wrapper-item">
+                                    <ul>
+                                        <li class="first">Ani Sargsyan</li>
+                                        <li>768</li>
+                                        <li>Ani</li>
+                                        <li>Sargsyan</li>
+                                        <li>1234568798</li>
+                                        <li>1123456</li>
+                                        <li>1214564</li>
+                                        <li>Armenia 12345</li>
+                                        <li>Contact:12345</li>
+                                        <div class="address-links">
+                                            <a class="edit-link">Редактировать</a>
+                                            <a class="delete-link">Удалить</a>
+                                        </div>
+
+                                    </ul>
+
+                                </div>
+                                <p class="default-address">АДРЕС ПО УМОЛЧАНИЮ</p>
+                            </div>
+                            <div class="col-sm-6 col-xl-3">
+                                <div class="address-wrapper-item">
+                                    <ul>
+                                        <li class="first">Ani Sargsyan</li>
+                                        <li>768</li>
+                                        <li>Ani</li>
+                                        <li>Sargsyan</li>
+                                        <li>1234568798</li>
+                                        <li>1123456</li>
+                                        <li>1214564</li>
+                                        <li>Armenia 12345</li>
+                                        <li>Contact:12345</li>
+                                        <div class="address-links">
+                                            <a class="edit-link">Редактировать</a>
+                                            <a class="delete-link">Удалить</a>
+                                        </div>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xl-3">
+                                <div class="address-wrapper-item">
+                                    <ul>
+                                        <li class="first">Ani Sargsyan</li>
+                                        <li>768</li>
+                                        <li>Ani</li>
+                                        <li>Sargsyan</li>
+                                        <li>1234568798</li>
+                                        <li>1123456</li>
+                                        <li>1214564</li>
+                                        <li>Armenia 12345</li>
+                                        <li>Contact:12345</li>
+                                        <div class="address-links">
+                                            <a class="edit-link">Редактировать</a>
+                                            <a class="delete-link">Удалить</a>
+                                        </div>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xl-3">
+                                <div class="address-wrapper-item">
+                                    <ul>
+                                        <li class="first">Ani Sargsyan</li>
+                                        <li>768</li>
+                                        <li>Ani</li>
+                                        <li>Sargsyan</li>
+                                        <li>1234568798</li>
+                                        <li>1123456</li>
+                                        <li>1214564</li>
+                                        <li>Armenia 12345</li>
+                                        <li>Contact:12345</li>
+                                        <div class="address-links">
+                                            <a class="edit-link">Редактировать</a>
+                                            <a class="delete-link">Удалить</a>
+                                        </div>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="address-edit">
+                    <h2>Редактировать</h2>
+                    <form class="address">
+                        <div class="input-wrapper m-t-20">
+                            <label>Имя</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="input-wrapper m-t-10">
+                            <label>Фамилия</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="input-wrapper m-t-10">
+                            <label>Компания</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="input-wrapper m-t-10">
+                            <label>Адресная строка 1</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="input-wrapper m-t-10">
+                            <label>Адресная строка 2</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="input-wrapper m-t-10">
+                            <label>Город</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="input-wrapper m-t-10 m-b-10">
+                            <label> Штат/Провинция</label>
+                            <div class="select-block address-select-block">
+                                <select>
+                                    <option value="1">Аляска</option>
+                                    <option value="2">Белый</option>
+                                    <option value="3">Белый</option>
+                                </select>
+                                <span class="icon-arrow-down select-icon"></span>
+                            </div>
+
+                        </div>
+                        <div class="input-wrapper m-t-10 m-b-10">
+                            <label> Страна</label>
+                            <div class="select-block address-select-block">
+                                <select>
+                                    <option value="1">Соединенные Штаты</option>
+                                    <option value="2">Белый</option>
+                                    <option value="3">Белый</option>
+                                </select>
+                                <span class="icon-arrow-down select-icon"></span>
+                            </div>
+
+                        </div>
+                        <div class="input-wrapper m-t-10">
+                            <label> Почтовый индекс</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="input-wrapper m-t-10">
+                            <label>Phone</label>
+                            <input type="text" maxlength="80">
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="edit">
+                            <label for="edit">Установить как адрес по умолчанию?</label>
+                        </div>
+                        <div class="address-btn-block">
+                            <button class="btn-custom filled primary button-md comment-btn m-r-30">Сохранить</button>
+                            <button class="register-btn close-modal">отмена</button>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="address-order">
+                    <h2>Мои заказы</h2>
+                    <div class="container-custom">
+                        <div class="order-heading-content row">
+                            <div class="order-heading col-sm-3 col-md-3 col-lg-3 justify-center">Название продукта</div>
+                            <div class="order-heading col-sm-2 col-md-1 col-lg-1 justify-end">Order ID</div>
+                            <div class="order-heading col-sm-2 col-md-2 col-lg-2 justify-end p-r-5">Дата заказа</div>
+                            <div class="order-heading col-sm-2 col-md-2 col-lg-2 justify-end p-r-30">Цена</div>
+                            <div class="order-heading col-sm-2 col-md-2 col-lg-2 justify-end p-r-30">Статус</div>
+                            <div class="order-heading col-sm-1 col-md-2 col-lg-2 "></div>
+                        </div>
+
+                        <div class="order-body-content row">
+                            <div class="order-body-item col-sm-3 col-md-3 col-lg-3 p-r-0">
+                                <div class="table-item-img"></div>
+                                <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+                            </div>
+                            <div class="order-body-item col-sm-2 col-md-1 col-lg-1 p-r-25">9261</div>
+                            <div class="order-body-item col-sm-2 col-md-2 col-lg-2 p-r-0">29.04.2024</div>
+                            <div class="order-body-item col-sm-2 col-md-2 col-lg-2 p-r-0">25 000 др.</div>
+                            <div class="order-body-item col-sm-2 col-md-2 col-lg-2 p-r-0">В ожидании</div>
+                            <div class="order-body-item col-sm-1 col-md-2 col-lg-2">
+                                <button class="register-btn close-modal table-btn more-details-btn">Подробнее</button>
+                            </div>
+                            <div class="order-body-hide-content">
+                                <div class="table">
+                                    <div class="row">
+                                        <div class="table-head col-md-2">Название продукта</div>
+                                        <div class="table-head col-md-2">Цена</div>
+                                        <div class="table-head col-md-2">Статус  заказа</div>
+                                        <div class="table-head col-md-2">Субтотал</div>
+                                        <div class="table-head col-md-2">Сумма налога</div>
+                                        <div class="table-head col-md-2">Итоговая сумма</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="table-item col-md-2 p-r-40">50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">Заказано (1)</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">0.00%</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                    </div>
+                                </div>
+                                <div class="table-mobile">
+                                    <ul>
+                                        <li>
+                                            <h5>Название продукта</h5>
+                                            <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+                                        </li>
+                                        <li>
+                                            <h5>Цена</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Статус  заказа</h5>
+                                            <span>Заказано (1)</span>
+                                        </li>
+                                        <li>
+                                            <h5>Субтотал</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Сумма налога</h5>
+                                            <span>0.00%</span>
+                                        </li>
+                                        <li>
+                                            <h5>Итоговая сумма</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="more-details">
+                                    <ul class="more-details-list">
+                                        <li class="more-details-item">
+                                            <p>Субтотал</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Доставка и обработка</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Налог</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="more-details-list bold-version">
+                                        <li class="more-details-item">
+                                            <p>Итоговая сумма</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Оплачено всего</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Всего возвращено</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>К оплате</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="table sub-table">
+                                    <div class="row">
+                                        <div class="sub-table-head col-md-3">Адрес дома</div>
+                                        <div class="sub-table-head col-md-3">Адрес доставки</div>
+                                        <div class="sub-table-head col-md-3">Метод доставки</div>
+                                        <div class="sub-table-head col-md-3">Способ оплаты</div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Flat rate - Flat rate</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Оплата при получении</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="sub-table-mobile">
+
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес дома</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес доставки</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Метод доставки</div>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Способ оплаты</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="order-body-content-mobile">
+                            <ul>
+                                <li>
+                                    <h5>Название продукта</h5>
+                                    <p>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</p>
+                                </li>
+                                <li>
+                                    <h5>Order ID</h5>
+                                    <p>9261</p>
+                                </li>
+                                <li>
+                                    <h5>Дата заказа</h5>
+                                    <p>29.04.2024</p>
+                                </li>
+                                <li>
+                                    <h5>Цена</h5>
+                                    <p>25 000 др.</p>
+                                </li>
+                                <li>
+                                    <h5>Статус</h5>
+                                    <p>В ожидании</p>
+                                </li>
+                                <button class="register-btn close-modal more-details-btn">Подробнее</button>
+                            </ul>
+                            <div class="order-body-hide-content">
+                                <div class="table">
+                                    <div class="row">
+                                        <div class="table-head col-md-2">Название продукта</div>
+                                        <div class="table-head col-md-2">Цена</div>
+                                        <div class="table-head col-md-2">Статус  заказа</div>
+                                        <div class="table-head col-md-2">Субтотал</div>
+                                        <div class="table-head col-md-2">Сумма налога</div>
+                                        <div class="table-head col-md-2">Итоговая сумма</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="table-item col-md-2 p-r-40">50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">Заказано (1)</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">0.00%</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                    </div>
+                                </div>
+                                <div class="table-mobile">
+                                    <ul>
+                                        <li>
+                                            <h5>Название продукта</h5>
+                                            <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+                                        </li>
+                                        <li>
+                                            <h5>Цена</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Статус  заказа</h5>
+                                            <span>Заказано (1)</span>
+                                        </li>
+                                        <li>
+                                            <h5>Субтотал</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Сумма налога</h5>
+                                            <span>0.00%</span>
+                                        </li>
+                                        <li>
+                                            <h5>Итоговая сумма</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="more-details">
+                                    <ul class="more-details-list">
+                                        <li class="more-details-item">
+                                            <p>Субтотал</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Доставка и обработка</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Налог</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="more-details-list bold-version">
+                                        <li class="more-details-item">
+                                            <p>Итоговая сумма</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Оплачено всего</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Всего возвращено</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>К оплате</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="table sub-table">
+                                    <div class="row">
+                                        <div class="sub-table-head col-md-3">Адрес дома</div>
+                                        <div class="sub-table-head col-md-3">Адрес доставки</div>
+                                        <div class="sub-table-head col-md-3">Метод доставки</div>
+                                        <div class="sub-table-head col-md-3">Способ оплаты</div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Flat rate - Flat rate</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Оплата при получении</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="sub-table-mobile">
+
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес дома</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес доставки</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Метод доставки</div>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Способ оплаты</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="address-special">
+                    <h2>Мои избранные</h2>
+                    <div class="container-custom">
+                        <div class="address-special-content row">
+                            <div class="address-special-heading col-md-4 justify-center">Название продукта</div>
+                            <div class="address-special-heading col-md-3 justify-end">Статус на складе</div>
+                            <div class="address-special-heading col-md-2 justify-end p-r-30">Цена</div>
+                            <div class="address-special-heading col-md-2 "></div>
+                        </div>
+
+                        <div class="address-special-body-content row">
+                            <div class="address-special-item col-md-4 p-r-0">
+                                <div>
+                                    <button class="address-close-btn"><img src="assets/images/home/address-close.svg" alt="img"></button>
+
+                                    <div class="checkbox shop-checkbox address-checkbox">
+                                        <input type="checkbox" id="Розы">
+                                        <label for="Розы"></label>
+                                    </div>
+                                </div>
+                                <div class="table-item-img"></div>
+                                <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+                            </div>
+                            <div class="address-special-item active-item col-md-3 p-r-25">Доступен</div>
+                            <div class="address-special-item bold col-md-2 p-r-0">25 000 др.</div>
+                            <div class="address-special-item col-md-2">
+                                <button class="add-to-cart-btn"><span class="icon-cart m-r-5 m-t-5"></span>Добавить в корзину</button>
+                            </div>
+                            <div class="order-body-hide-content">
+                                <div class="table">
+                                    <div class="row">
+                                        <div class="table-head col-md-2">Название продукта</div>
+                                        <div class="table-head col-md-2">Цена</div>
+                                        <div class="table-head col-md-2">Статус  заказа</div>
+                                        <div class="table-head col-md-2">Субтотал</div>
+                                        <div class="table-head col-md-2">Сумма налога</div>
+                                        <div class="table-head col-md-2">Итоговая сумма</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="table-item col-md-2 p-r-40">50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">Заказано (1)</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">0.00%</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                    </div>
+                                </div>
+                                <div class="table-mobile">
+                                    <ul>
+                                        <li>
+                                            <h5>Название продукта</h5>
+                                            <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+                                        </li>
+                                        <li>
+                                            <h5>Цена</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Статус  заказа</h5>
+                                            <span>Заказано (1)</span>
+                                        </li>
+                                        <li>
+                                            <h5>Субтотал</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Сумма налога</h5>
+                                            <span>0.00%</span>
+                                        </li>
+                                        <li>
+                                            <h5>Итоговая сумма</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="more-details">
+                                    <ul class="more-details-list">
+                                        <li class="more-details-item">
+                                            <p>Субтотал</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Доставка и обработка</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Налог</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="more-details-list bold-version">
+                                        <li class="more-details-item">
+                                            <p>Итоговая сумма</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Оплачено всего</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Всего возвращено</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>К оплате</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="table sub-table">
+                                    <div class="row">
+                                        <div class="sub-table-head col-md-3">Адрес дома</div>
+                                        <div class="sub-table-head col-md-3">Адрес доставки</div>
+                                        <div class="sub-table-head col-md-3">Метод доставки</div>
+                                        <div class="sub-table-head col-md-3">Способ оплаты</div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Flat rate - Flat rate</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Оплата при получении</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="sub-table-mobile">
+
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес дома</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес доставки</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Метод доставки</div>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Способ оплаты</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="address-special-body-content row">
+                            <div class="address-special-item col-md-4 p-r-0">
+                                <div>
+                                    <button class="address-close-btn"><img src="assets/images/home/address-close.svg" alt="img"></button>
+
+                                    <div class="checkbox shop-checkbox address-checkbox">
+                                        <input type="checkbox" id="Розы">
+                                        <label for="Розы"></label>
+                                    </div>
+                                </div>
+                                <div class="table-item-img"></div>
+                                <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+<!--                                <div class="stars address-stars">-->
+<!--                                    <input type="radio" id="star1" name="rating" value="1" />-->
+<!--                                    <input type="radio" id="star2" name="rating" value="2" />-->
+<!--                                    <input type="radio" id="star3" name="rating" value="3" />-->
+<!--                                    <input type="radio" id="star4" name="rating" value="4" />-->
+<!--                                    <input type="radio" id="star5" name="rating" value="5" />-->
+
+<!--                                    <label for="star1" aria-label="Banana">1 star</label>-->
+<!--                                    <label for="star2">2 stars</label>-->
+<!--                                    <label for="star3">3 stars</label>-->
+<!--                                    <label for="star4">4 stars</label>-->
+<!--                                    <label for="star5">5 stars</label>-->
+<!--                                </div>-->
+                            </div>
+                            <div class="address-special-item deactivate-item col-md-3 p-r-25">не доступен </div>
+                            <div class="address-special-item bold col-md-2 p-r-0">25 000 др.</div>
+                            <div class="address-special-item col-md-2">
+                                <button class="add-to-cart-btn"><span class="icon-cart m-r-5 m-t-5"></span>Добавить в корзину</button>
+                            </div>
+                            <div class="order-body-hide-content">
+                                <div class="table">
+                                    <div class="row">
+                                        <div class="table-head col-md-2">Название продукта</div>
+                                        <div class="table-head col-md-2">Цена</div>
+                                        <div class="table-head col-md-2">Статус  заказа</div>
+                                        <div class="table-head col-md-2">Субтотал</div>
+                                        <div class="table-head col-md-2">Сумма налога</div>
+                                        <div class="table-head col-md-2">Итоговая сумма</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="table-item col-md-2 p-r-40">50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">Заказано (1)</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                        <div class="table-item col-md-2">0.00%</div>
+                                        <div class="table-item col-md-2">25 000 др.</div>
+                                    </div>
+                                </div>
+                                <div class="table-mobile">
+                                    <ul>
+                                        <li>
+                                            <h5>Название продукта</h5>
+                                            <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+                                        </li>
+                                        <li>
+                                            <h5>Цена</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Статус  заказа</h5>
+                                            <span>Заказано (1)</span>
+                                        </li>
+                                        <li>
+                                            <h5>Субтотал</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li>
+                                            <h5>Сумма налога</h5>
+                                            <span>0.00%</span>
+                                        </li>
+                                        <li>
+                                            <h5>Итоговая сумма</h5>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="more-details">
+                                    <ul class="more-details-list">
+                                        <li class="more-details-item">
+                                            <p>Субтотал</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Доставка и обработка</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Налог</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="more-details-list bold-version">
+                                        <li class="more-details-item">
+                                            <p>Итоговая сумма</p>
+                                            <span>25 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Оплачено всего</p>
+                                            <span>5 000 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>Всего возвращено</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                        <li class="more-details-item">
+                                            <p>К оплате</p>
+                                            <span>0.00 др.</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="table sub-table">
+                                    <div class="row">
+                                        <div class="sub-table-head col-md-3">Адрес дома</div>
+                                        <div class="sub-table-head col-md-3">Адрес доставки</div>
+                                        <div class="sub-table-head col-md-3">Метод доставки</div>
+                                        <div class="sub-table-head col-md-3">Способ оплаты</div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul>
+                                                <li class="table-item-head">Ani Sargsyan</li>
+                                                <li>768</li>
+                                                <li>Ani</li>
+                                                <li>Sargsyan</li>
+                                                <li>1234568798</li>
+                                                <li>1123456</li>
+                                                <li>1123456</li>
+                                                <li>Armenia 12345</li>
+                                                <li>Contact:12345</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Flat rate - Flat rate</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="sub-table-item col-md-3">
+                                            <ul class="table-border-none">
+                                                <li class="table-item-head">Оплата при получении</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="sub-table-mobile">
+
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес дома</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Адрес доставки</div>
+                                        <ul >
+                                            <li class="table-item-head">Ani Sargsyan</li>
+                                            <li>768</li>
+                                            <li>Ani</li>
+                                            <li>Sargsyan</li>
+                                            <li>1234568798</li>
+                                            <li>1123456</li>
+                                            <li>1123456</li>
+                                            <li>Armenia 12345</li>
+                                            <li>Contact:12345</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Метод доставки</div>
+                                    </div>
+                                    <div class="sub-table-item-mobile">
+                                        <div class="sub-table-mobile-head">Способ оплаты</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="address-special-mobile">
+                            <div class="address-special-mobile-item">
+                                <h5>Название продукта</h5>
+                                <div class="product-name-content">
+                                    <div>
+                                        <button class="address-close-btn"><img src="assets/images/home/address-close.svg" alt="img"></button>
+
+                                        <div class="checkbox shop-checkbox address-checkbox">
+                                            <input type="checkbox" id="Розы">
+                                            <label for="Розы"></label>
+                                        </div>
+                                    </div>
+                                    <div class="table-item-img"></div>
+                                    <span>50 ФЕРМЕРСКИХ РОЗОВЫХ РОЗ</span>
+                                </div>
+                            </div>
+                            <div class="address-special-mobile-item">
+                                <h5>Статус на складе</h5>
+                                <p>Доступен</p>
+                            </div>
+                            <div class="address-special-mobile-item">
+                                <h5>Цена</h5>
+                                <p>25 000 др.</p>
+                            </div>
+                            <button class="add-to-cart-btn"><span class="icon-cart m-r-5 m-t-5"></span>Добавить в корзину</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</main>
+
+
+
+<footer>
+    <div class="footer">
+        <div class="container-custom">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">О нас</p>
+                        <ul>
+                            <li><a href="#">Всё о наших цветах</a></li>
+                            <li><a href="#">Наш Блог</a></li>
+                            <li><a href="#">Связаться с нами</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <p class="footer-heading">Розы</p>
+                        <ul>
+                            <li><a href="#">Букеты роз</a></li>
+                            <li><a href="#">Премиум</a></li>
+                            <li><a href="#">Эксклюзивные</a></li>
+                            <li><a href="#">Штучные</a></li>
+                            <li><a href="#">Мелкий опт</a></li>
+                            <li><a href="#">Лепестки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social">
+                        <p class="footer-heading">НОВОСТНАЯ РАССЫЛКА</p>
+                        <form action="#" class="footer-form">
+                            <div class="footer-input-block">
+                                <input type="text" placeholder="ваш@gmail.com" class="footer-input">
+                            </div>
+
+                        </form>
+                        <ul class="footer-social-list">
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-facebook"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-pinterest"></span></a></li>
+                            <li class="footer-social-item"><a href="#" class="footer-social-link"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                        <ul class="payment-list">
+                            <li class="payment-item"><img src="assets/images/home/visa.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/master-card.png" alt="img"></li>
+                            <li class="payment-item"><img src="assets/images/home/meta.png" alt="img"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="flex align-center">Developed by <a href="" class="m-l-5 m-r-5"><img src="assets/images/home/lamp-logo.png" alt="logo"></a>&copy 2023</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -54,6 +54,11 @@ $(document).ready(function () {
 
 
     });
+    $('.more-details-btn').on('click', function () {
+        $('.order-body-hide-content').toggleClass("show");
+
+    });
+
     $('.notification').click(function () {
         $('.notification-cart').toggleClass('open-cart');
 
